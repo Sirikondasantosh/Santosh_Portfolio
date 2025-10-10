@@ -10,47 +10,47 @@
 }
 
 :root {
-    /* Harmonious Professional Color Palette */
-    --primary: #6366f1;
-    --primary-light: #818cf8;
-    --primary-dark: #4f46e5;
-    --secondary: #ec4899;
-    --accent: #8b5cf6;
-    --success: #10b981;
-    --warning: #f59e0b;
-    --error: #ef4444;
+    /* Architectural Sophisticated Color Palette */
+    --primary: #5C7C89;
+    --primary-light: #6B8A97;
+    --primary-dark: #4A6B78;
+    --secondary: #1F4959;
+    --accent: #011425;
+    --success: #5C7C89;
+    --warning: #1F4959;
+    --error: #242424;
     
-    /* Beautiful Cohesive Gradient Colors */
-    --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --gradient-2: linear-gradient(135deg, #ee9ca7 0%, #ffdde1 100%);
-    --gradient-3: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
-    --gradient-4: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
-    --gradient-5: linear-gradient(135deg, #fc6076 0%, #ff9a44 100%);
-    --gradient-6: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    /* Sophisticated Architectural Gradients */
+    --gradient-1: linear-gradient(135deg, #5C7C89 0%, #1F4959 100%);
+    --gradient-2: linear-gradient(135deg, #6B8A97 0%, #5C7C89 100%);
+    --gradient-3: linear-gradient(135deg, #1F4959 0%, #011425 100%);
+    --gradient-4: linear-gradient(135deg, #5C7C89 0%, #242424 100%);
+    --gradient-5: linear-gradient(135deg, #1F4959 0%, #5C7C89 100%);
+    --gradient-6: linear-gradient(135deg, #011425 0%, #1F4959 100%);
     
-    /* Category-specific Harmonious Colors */
-    --ai-ml-gradient: linear-gradient(135deg, #ee9ca7 0%, #ffdde1 100%);
-    --fullstack-gradient: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
-    --data-gradient: linear-gradient(135deg, #fc6076 0%, #ff9a44 100%);
-    --cloud-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
-    --mlops-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --analytics-gradient: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    /* Category-specific Architectural Colors */
+    --ai-ml-gradient: linear-gradient(135deg, #6B8A97 0%, #5C7C89 100%);
+    --fullstack-gradient: linear-gradient(135deg, #5C7C89 0%, #1F4959 100%);
+    --data-gradient: linear-gradient(135deg, #1F4959 0%, #011425 100%);
+    --cloud-gradient: linear-gradient(135deg, #5C7C89 0%, #242424 100%);
+    --mlops-gradient: linear-gradient(135deg, #1F4959 0%, #5C7C89 100%);
+    --analytics-gradient: linear-gradient(135deg, #011425 0%, #1F4959 100%);
     
-    /* Elegant Dark Theme */
-    --bg-primary: #0f0f1e;
-    --bg-secondary: #1a1a2e;
-    --bg-card: rgba(26, 26, 46, 0.9);
-    --white: #ffffff;
-    --gray-50: #1e1e2e;
-    --gray-100: #2a2a3e;
-    --gray-200: #363650;
-    --gray-300: #4a4a6a;
-    --gray-400: #6b7280;
-    --gray-500: #9ca3af;
-    --gray-600: #e5e5e5;
-    --gray-700: #f0f0f0;
-    --gray-800: #f8f8f8;
-    --gray-900: #ffffff;
+    /* Sophisticated Architectural Theme */
+    --bg-primary: #011425;
+    --bg-secondary: #1F4959;
+    --bg-card: rgba(31, 73, 89, 0.9);
+    --white: #FFFFFF;
+    --gray-50: #242424;
+    --gray-100: #2A3A40;
+    --gray-200: #36454F;
+    --gray-300: #4A6B78;
+    --gray-400: #5C7C89;
+    --gray-500: #6B8A97;
+    --gray-600: #E5E5E5;
+    --gray-700: #F0F0F0;
+    --gray-800: #F8F8F8;
+    --gray-900: #FFFFFF;
     
     /* Typography */
     --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -79,7 +79,7 @@ body {
     font-family: var(--font-family);
     line-height: 1.6;
     color: var(--gray-600);
-    background: #0a0a0f;
+    background: #011425;
     position: relative;
     overflow-x: hidden;
 }
@@ -92,12 +92,12 @@ body::before {
     right: 0;
     bottom: 0;
     background: 
-        radial-gradient(circle at 20% 30%, rgba(99, 102, 241, 0.12) 0%, transparent 40%),
-        radial-gradient(circle at 80% 70%, rgba(236, 72, 153, 0.1) 0%, transparent 40%),
-        radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.08) 0%, transparent 45%),
-        radial-gradient(circle at 30% 80%, rgba(16, 185, 129, 0.08) 0%, transparent 40%),
-        radial-gradient(circle at 70% 20%, rgba(245, 158, 11, 0.06) 0%, transparent 35%);
-    animation: premiumPulse 20s ease-in-out infinite;
+        radial-gradient(circle at 20% 30%, rgba(92, 124, 137, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(31, 73, 89, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at 50% 50%, rgba(1, 20, 37, 0.04) 0%, transparent 45%),
+        radial-gradient(circle at 30% 80%, rgba(36, 36, 36, 0.04) 0%, transparent 40%),
+        radial-gradient(circle at 70% 20%, rgba(92, 124, 137, 0.06) 0%, transparent 35%);
+    animation: premiumPulse 25s ease-in-out infinite;
     z-index: -1;
     pointer-events: none;
 }
@@ -110,11 +110,11 @@ body::after {
     right: 0;
     bottom: 0;
     background-image: 
-        repeating-linear-gradient(0deg, rgba(99, 102, 241, 0.02) 0px, transparent 2px, transparent 4px),
-        repeating-linear-gradient(90deg, rgba(139, 92, 246, 0.02) 0px, transparent 2px, transparent 4px);
+        repeating-linear-gradient(0deg, rgba(92, 124, 137, 0.015) 0px, transparent 2px, transparent 4px),
+        repeating-linear-gradient(90deg, rgba(31, 73, 89, 0.015) 0px, transparent 2px, transparent 4px);
     z-index: -1;
     pointer-events: none;
-    animation: gridShift 25s linear infinite;
+    animation: gridShift 30s linear infinite;
 }
 
 @keyframes premiumPulse {
@@ -822,9 +822,9 @@ section {
 }
 
 .skill-category-compact.ai-ml {
-    background: linear-gradient(135deg, rgba(238, 156, 167, 0.15) 0%, rgba(255, 221, 225, 0.08) 50%, rgba(26, 26, 46, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(107, 138, 151, 0.15) 0%, rgba(92, 124, 137, 0.08) 50%, rgba(31, 73, 89, 0.95) 100%);
     border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #ee9ca7, #ffdde1) 1;
+    border-image: linear-gradient(135deg, #6B8A97, #5C7C89) 1;
     position: relative;
 }
 
@@ -835,7 +835,7 @@ section {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(135deg, #ee9ca7, #ffdde1);
+    background: linear-gradient(135deg, #6B8A97, #5C7C89);
     border-radius: 20px;
     z-index: -1;
     opacity: 0;
@@ -844,8 +844,8 @@ section {
 }
 
 .skill-category-compact.ai-ml:hover {
-    background: linear-gradient(135deg, rgba(238, 156, 167, 0.25) 0%, rgba(255, 221, 225, 0.15) 50%, rgba(26, 26, 46, 0.95) 100%);
-    box-shadow: 0 25px 50px rgba(238, 156, 167, 0.35), 0 0 60px rgba(255, 221, 225, 0.2);
+    background: linear-gradient(135deg, rgba(107, 138, 151, 0.25) 0%, rgba(92, 124, 137, 0.15) 50%, rgba(31, 73, 89, 0.95) 100%);
+    box-shadow: 0 25px 50px rgba(107, 138, 151, 0.35), 0 0 60px rgba(92, 124, 137, 0.2);
 }
 
 .skill-category-compact.ai-ml:hover::after {
@@ -853,9 +853,9 @@ section {
 }
 
 .skill-category-compact.fullstack {
-    background: linear-gradient(135deg, rgba(33, 147, 176, 0.15) 0%, rgba(109, 213, 237, 0.08) 50%, rgba(26, 26, 46, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(92, 124, 137, 0.15) 0%, rgba(31, 73, 89, 0.08) 50%, rgba(31, 73, 89, 0.95) 100%);
     border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #2193b0, #6dd5ed) 1;
+    border-image: linear-gradient(135deg, #5C7C89, #1F4959) 1;
     position: relative;
 }
 
@@ -866,7 +866,7 @@ section {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+    background: linear-gradient(135deg, #5C7C89, #1F4959);
     border-radius: 20px;
     z-index: -1;
     opacity: 0;
@@ -875,8 +875,8 @@ section {
 }
 
 .skill-category-compact.fullstack:hover {
-    background: linear-gradient(135deg, rgba(33, 147, 176, 0.25) 0%, rgba(109, 213, 237, 0.15) 50%, rgba(26, 26, 46, 0.95) 100%);
-    box-shadow: 0 25px 50px rgba(33, 147, 176, 0.35), 0 0 60px rgba(109, 213, 237, 0.2);
+    background: linear-gradient(135deg, rgba(92, 124, 137, 0.25) 0%, rgba(31, 73, 89, 0.15) 50%, rgba(31, 73, 89, 0.95) 100%);
+    box-shadow: 0 25px 50px rgba(92, 124, 137, 0.35), 0 0 60px rgba(31, 73, 89, 0.2);
 }
 
 .skill-category-compact.fullstack:hover::after {
@@ -884,9 +884,9 @@ section {
 }
 
 .skill-category-compact.data {
-    background: linear-gradient(135deg, rgba(252, 96, 118, 0.15) 0%, rgba(255, 154, 68, 0.08) 50%, rgba(26, 26, 46, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(31, 73, 89, 0.15) 0%, rgba(1, 20, 37, 0.08) 50%, rgba(31, 73, 89, 0.95) 100%);
     border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #fc6076, #ff9a44) 1;
+    border-image: linear-gradient(135deg, #1F4959, #011425) 1;
     position: relative;
 }
 
@@ -897,7 +897,7 @@ section {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(135deg, #fc6076, #ff9a44);
+    background: linear-gradient(135deg, #1F4959, #011425);
     border-radius: 20px;
     z-index: -1;
     opacity: 0;
@@ -906,8 +906,8 @@ section {
 }
 
 .skill-category-compact.data:hover {
-    background: linear-gradient(135deg, rgba(252, 96, 118, 0.25) 0%, rgba(255, 154, 68, 0.15) 50%, rgba(26, 26, 46, 0.95) 100%);
-    box-shadow: 0 25px 50px rgba(252, 96, 118, 0.35), 0 0 60px rgba(255, 154, 68, 0.2);
+    background: linear-gradient(135deg, rgba(31, 73, 89, 0.25) 0%, rgba(1, 20, 37, 0.15) 50%, rgba(31, 73, 89, 0.95) 100%);
+    box-shadow: 0 25px 50px rgba(31, 73, 89, 0.35), 0 0 60px rgba(1, 20, 37, 0.2);
 }
 
 .skill-category-compact.data:hover::after {
@@ -915,9 +915,9 @@ section {
 }
 
 .skill-category-compact.cloud {
-    background: linear-gradient(135deg, rgba(17, 153, 142, 0.15) 0%, rgba(56, 239, 125, 0.08) 50%, rgba(26, 26, 46, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(92, 124, 137, 0.15) 0%, rgba(36, 36, 36, 0.08) 50%, rgba(31, 73, 89, 0.95) 100%);
     border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #11998e, #38ef7d) 1;
+    border-image: linear-gradient(135deg, #5C7C89, #242424) 1;
     position: relative;
 }
 
@@ -928,7 +928,7 @@ section {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(135deg, #11998e, #38ef7d);
+    background: linear-gradient(135deg, #5C7C89, #242424);
     border-radius: 20px;
     z-index: -1;
     opacity: 0;
@@ -937,8 +937,8 @@ section {
 }
 
 .skill-category-compact.cloud:hover {
-    background: linear-gradient(135deg, rgba(17, 153, 142, 0.25) 0%, rgba(56, 239, 125, 0.15) 50%, rgba(26, 26, 46, 0.95) 100%);
-    box-shadow: 0 25px 50px rgba(17, 153, 142, 0.35), 0 0 60px rgba(56, 239, 125, 0.2);
+    background: linear-gradient(135deg, rgba(92, 124, 137, 0.25) 0%, rgba(36, 36, 36, 0.15) 50%, rgba(31, 73, 89, 0.95) 100%);
+    box-shadow: 0 25px 50px rgba(92, 124, 137, 0.35), 0 0 60px rgba(36, 36, 36, 0.2);
 }
 
 .skill-category-compact.cloud:hover::after {
@@ -946,9 +946,9 @@ section {
 }
 
 .skill-category-compact.mlops {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.1) 50%, rgba(17, 17, 24, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(31, 73, 89, 0.15) 0%, rgba(92, 124, 137, 0.08) 50%, rgba(31, 73, 89, 0.95) 100%);
     border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #667eea, #764ba2) 1;
+    border-image: linear-gradient(135deg, #1F4959, #5C7C89) 1;
     position: relative;
 }
 
@@ -959,7 +959,7 @@ section {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #1F4959, #5C7C89);
     border-radius: 20px;
     z-index: -1;
     opacity: 0;
@@ -968,8 +968,8 @@ section {
 }
 
 .skill-category-compact.mlops:hover {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.2) 50%, rgba(17, 17, 24, 0.95) 100%);
-    box-shadow: 0 25px 50px rgba(102, 126, 234, 0.4), 0 0 80px rgba(118, 75, 162, 0.2);
+    background: linear-gradient(135deg, rgba(31, 73, 89, 0.25) 0%, rgba(92, 124, 137, 0.15) 50%, rgba(31, 73, 89, 0.95) 100%);
+    box-shadow: 0 25px 50px rgba(31, 73, 89, 0.35), 0 0 60px rgba(92, 124, 137, 0.2);
 }
 
 .skill-category-compact.mlops:hover::after {
@@ -977,9 +977,9 @@ section {
 }
 
 .skill-category-compact.analytics {
-    background: linear-gradient(135deg, rgba(168, 237, 234, 0.15) 0%, rgba(254, 214, 227, 0.08) 50%, rgba(26, 26, 46, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(1, 20, 37, 0.15) 0%, rgba(31, 73, 89, 0.08) 50%, rgba(31, 73, 89, 0.95) 100%);
     border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #a8edea, #fed6e3) 1;
+    border-image: linear-gradient(135deg, #011425, #1F4959) 1;
     position: relative;
 }
 
@@ -990,7 +990,7 @@ section {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    background: linear-gradient(135deg, #011425, #1F4959);
     border-radius: 20px;
     z-index: -1;
     opacity: 0;
@@ -999,8 +999,8 @@ section {
 }
 
 .skill-category-compact.analytics:hover {
-    background: linear-gradient(135deg, rgba(168, 237, 234, 0.25) 0%, rgba(254, 214, 227, 0.15) 50%, rgba(26, 26, 46, 0.95) 100%);
-    box-shadow: 0 25px 50px rgba(168, 237, 234, 0.35), 0 0 60px rgba(254, 214, 227, 0.2);
+    background: linear-gradient(135deg, rgba(1, 20, 37, 0.25) 0%, rgba(31, 73, 89, 0.15) 50%, rgba(31, 73, 89, 0.95) 100%);
+    box-shadow: 0 25px 50px rgba(1, 20, 37, 0.35), 0 0 60px rgba(31, 73, 89, 0.2);
 }
 
 .skill-category-compact.analytics:hover::after {
@@ -1095,69 +1095,69 @@ section {
 }
 
 .skill-category-compact.ai-ml .category-techs span {
-    background: linear-gradient(135deg, rgba(238, 156, 167, 0.18), rgba(255, 221, 225, 0.18));
-    border-color: rgba(238, 156, 167, 0.5);
+    background: linear-gradient(135deg, rgba(107, 138, 151, 0.18), rgba(92, 124, 137, 0.18));
+    border-color: rgba(107, 138, 151, 0.5);
 }
 
 .skill-category-compact.ai-ml:hover .category-techs span {
-    background: linear-gradient(135deg, rgba(238, 156, 167, 0.35), rgba(255, 221, 225, 0.35));
-    border-color: #ee9ca7;
-    box-shadow: 0 6px 12px rgba(238, 156, 167, 0.4);
+    background: linear-gradient(135deg, rgba(107, 138, 151, 0.35), rgba(92, 124, 137, 0.35));
+    border-color: #6B8A97;
+    box-shadow: 0 6px 12px rgba(107, 138, 151, 0.4);
 }
 
 .skill-category-compact.fullstack .category-techs span {
-    background: linear-gradient(135deg, rgba(33, 147, 176, 0.18), rgba(109, 213, 237, 0.18));
-    border-color: rgba(33, 147, 176, 0.5);
+    background: linear-gradient(135deg, rgba(92, 124, 137, 0.18), rgba(31, 73, 89, 0.18));
+    border-color: rgba(92, 124, 137, 0.5);
 }
 
 .skill-category-compact.fullstack:hover .category-techs span {
-    background: linear-gradient(135deg, rgba(33, 147, 176, 0.35), rgba(109, 213, 237, 0.35));
-    border-color: #2193b0;
-    box-shadow: 0 6px 12px rgba(33, 147, 176, 0.4);
+    background: linear-gradient(135deg, rgba(92, 124, 137, 0.35), rgba(31, 73, 89, 0.35));
+    border-color: #5C7C89;
+    box-shadow: 0 6px 12px rgba(92, 124, 137, 0.4);
 }
 
 .skill-category-compact.data .category-techs span {
-    background: linear-gradient(135deg, rgba(252, 96, 118, 0.18), rgba(255, 154, 68, 0.18));
-    border-color: rgba(252, 96, 118, 0.5);
+    background: linear-gradient(135deg, rgba(31, 73, 89, 0.18), rgba(1, 20, 37, 0.18));
+    border-color: rgba(31, 73, 89, 0.5);
 }
 
 .skill-category-compact.data:hover .category-techs span {
-    background: linear-gradient(135deg, rgba(252, 96, 118, 0.35), rgba(255, 154, 68, 0.35));
-    border-color: #fc6076;
-    box-shadow: 0 6px 12px rgba(252, 96, 118, 0.4);
+    background: linear-gradient(135deg, rgba(31, 73, 89, 0.35), rgba(1, 20, 37, 0.35));
+    border-color: #1F4959;
+    box-shadow: 0 6px 12px rgba(31, 73, 89, 0.4);
 }
 
 .skill-category-compact.cloud .category-techs span {
-    background: linear-gradient(135deg, rgba(17, 153, 142, 0.18), rgba(56, 239, 125, 0.18));
-    border-color: rgba(17, 153, 142, 0.5);
+    background: linear-gradient(135deg, rgba(92, 124, 137, 0.18), rgba(36, 36, 36, 0.18));
+    border-color: rgba(92, 124, 137, 0.5);
 }
 
 .skill-category-compact.cloud:hover .category-techs span {
-    background: linear-gradient(135deg, rgba(17, 153, 142, 0.35), rgba(56, 239, 125, 0.35));
-    border-color: #11998e;
-    box-shadow: 0 6px 12px rgba(17, 153, 142, 0.4);
+    background: linear-gradient(135deg, rgba(92, 124, 137, 0.35), rgba(36, 36, 36, 0.35));
+    border-color: #5C7C89;
+    box-shadow: 0 6px 12px rgba(92, 124, 137, 0.4);
 }
 
 .skill-category-compact.mlops .category-techs span {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.18), rgba(118, 75, 162, 0.18));
-    border-color: rgba(102, 126, 234, 0.5);
+    background: linear-gradient(135deg, rgba(31, 73, 89, 0.18), rgba(92, 124, 137, 0.18));
+    border-color: rgba(31, 73, 89, 0.5);
 }
 
 .skill-category-compact.mlops:hover .category-techs span {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.35), rgba(118, 75, 162, 0.35));
-    border-color: #667eea;
-    box-shadow: 0 6px 12px rgba(102, 126, 234, 0.4);
+    background: linear-gradient(135deg, rgba(31, 73, 89, 0.35), rgba(92, 124, 137, 0.35));
+    border-color: #1F4959;
+    box-shadow: 0 6px 12px rgba(31, 73, 89, 0.4);
 }
 
 .skill-category-compact.analytics .category-techs span {
-    background: linear-gradient(135deg, rgba(168, 237, 234, 0.18), rgba(254, 214, 227, 0.18));
-    border-color: rgba(168, 237, 234, 0.5);
+    background: linear-gradient(135deg, rgba(1, 20, 37, 0.18), rgba(31, 73, 89, 0.18));
+    border-color: rgba(1, 20, 37, 0.5);
 }
 
 .skill-category-compact.analytics:hover .category-techs span {
-    background: linear-gradient(135deg, rgba(168, 237, 234, 0.35), rgba(254, 214, 227, 0.35));
-    border-color: #a8edea;
-    box-shadow: 0 6px 12px rgba(168, 237, 234, 0.4);
+    background: linear-gradient(135deg, rgba(1, 20, 37, 0.35), rgba(31, 73, 89, 0.35));
+    border-color: #011425;
+    box-shadow: 0 6px 12px rgba(1, 20, 37, 0.4);
 }
 
 /* Responsive Design */
