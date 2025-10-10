@@ -857,10 +857,10 @@ section {
 }
 
 .skill-category-compact.ai-ml {
-    background: linear-gradient(135deg, rgba(249, 115, 22, 0.4) 0%, rgba(239, 68, 68, 0.3) 50%, rgba(255, 255, 255, 0.1) 100%);
-    border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #f97316, #ef4444) 1;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 2px solid rgba(249, 115, 22, 0.6);
     position: relative;
+    box-shadow: 0 8px 32px rgba(249, 115, 22, 0.3);
 }
 
 .skill-category-compact.ai-ml::after {
@@ -879,8 +879,9 @@ section {
 }
 
 .skill-category-compact.ai-ml:hover {
-    background: linear-gradient(135deg, rgba(249, 115, 22, 0.5) 0%, rgba(239, 68, 68, 0.4) 50%, rgba(255, 255, 255, 0.15) 100%);
-    box-shadow: 0 25px 50px rgba(249, 115, 22, 0.4), 0 0 60px rgba(239, 68, 68, 0.3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border: 2px solid rgba(249, 115, 22, 0.8);
+    box-shadow: 0 15px 40px rgba(249, 115, 22, 0.4), 0 0 0 4px rgba(249, 115, 22, 0.2);
 }
 
 .skill-category-compact.ai-ml:hover::after {
@@ -888,10 +889,10 @@ section {
 }
 
 .skill-category-compact.fullstack {
-    background: linear-gradient(135deg, rgba(16, 185, 129, 0.4) 0%, rgba(5, 150, 105, 0.3) 50%, rgba(255, 255, 255, 0.1) 100%);
-    border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #10b981, #059669) 1;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 2px solid rgba(16, 185, 129, 0.6);
     position: relative;
+    box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3);
 }
 
 .skill-category-compact.fullstack::after {
@@ -910,8 +911,9 @@ section {
 }
 
 .skill-category-compact.fullstack:hover {
-    background: linear-gradient(135deg, rgba(16, 185, 129, 0.5) 0%, rgba(5, 150, 105, 0.4) 50%, rgba(255, 255, 255, 0.15) 100%);
-    box-shadow: 0 25px 50px rgba(16, 185, 129, 0.4), 0 0 60px rgba(5, 150, 105, 0.3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border: 2px solid rgba(16, 185, 129, 0.8);
+    box-shadow: 0 15px 40px rgba(16, 185, 129, 0.4), 0 0 0 4px rgba(16, 185, 129, 0.2);
 }
 
 .skill-category-compact.fullstack:hover::after {
@@ -919,10 +921,10 @@ section {
 }
 
 .skill-category-compact.data {
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.4) 0%, rgba(147, 51, 234, 0.3) 50%, rgba(255, 255, 255, 0.1) 100%);
-    border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #a855f7, #9333ea) 1;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 2px solid rgba(168, 85, 247, 0.6);
     position: relative;
+    box-shadow: 0 8px 32px rgba(168, 85, 247, 0.3);
 }
 
 .skill-category-compact.data::after {
@@ -941,8 +943,9 @@ section {
 }
 
 .skill-category-compact.data:hover {
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.5) 0%, rgba(147, 51, 234, 0.4) 50%, rgba(255, 255, 255, 0.15) 100%);
-    box-shadow: 0 25px 50px rgba(168, 85, 247, 0.4), 0 0 60px rgba(147, 51, 234, 0.3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border: 2px solid rgba(168, 85, 247, 0.8);
+    box-shadow: 0 15px 40px rgba(168, 85, 247, 0.4), 0 0 0 4px rgba(168, 85, 247, 0.2);
 }
 
 .skill-category-compact.data:hover::after {
@@ -950,10 +953,10 @@ section {
 }
 
 .skill-category-compact.cloud {
-    background: linear-gradient(135deg, rgba(14, 165, 233, 0.4) 0%, rgba(2, 132, 199, 0.3) 50%, rgba(255, 255, 255, 0.1) 100%);
-    border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #0ea5e9, #0284c7) 1;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 2px solid rgba(14, 165, 233, 0.6);
     position: relative;
+    box-shadow: 0 8px 32px rgba(14, 165, 233, 0.3);
 }
 
 .skill-category-compact.cloud::after {
@@ -972,8 +975,9 @@ section {
 }
 
 .skill-category-compact.cloud:hover {
-    background: linear-gradient(135deg, rgba(14, 165, 233, 0.5) 0%, rgba(2, 132, 199, 0.4) 50%, rgba(255, 255, 255, 0.15) 100%);
-    box-shadow: 0 25px 50px rgba(14, 165, 233, 0.4), 0 0 60px rgba(2, 132, 199, 0.3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border: 2px solid rgba(14, 165, 233, 0.8);
+    box-shadow: 0 15px 40px rgba(14, 165, 233, 0.4), 0 0 0 4px rgba(14, 165, 233, 0.2);
 }
 
 .skill-category-compact.cloud:hover::after {
@@ -981,10 +985,10 @@ section {
 }
 
 .skill-category-compact.mlops {
-    background: linear-gradient(135deg, rgba(236, 72, 153, 0.4) 0%, rgba(219, 39, 119, 0.3) 50%, rgba(255, 255, 255, 0.1) 100%);
-    border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #ec4899, #db2777) 1;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 2px solid rgba(236, 72, 153, 0.6);
     position: relative;
+    box-shadow: 0 8px 32px rgba(236, 72, 153, 0.3);
 }
 
 .skill-category-compact.mlops::after {
@@ -1003,8 +1007,9 @@ section {
 }
 
 .skill-category-compact.mlops:hover {
-    background: linear-gradient(135deg, rgba(236, 72, 153, 0.5) 0%, rgba(219, 39, 119, 0.4) 50%, rgba(255, 255, 255, 0.15) 100%);
-    box-shadow: 0 25px 50px rgba(236, 72, 153, 0.4), 0 0 60px rgba(219, 39, 119, 0.3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border: 2px solid rgba(236, 72, 153, 0.8);
+    box-shadow: 0 15px 40px rgba(236, 72, 153, 0.4), 0 0 0 4px rgba(236, 72, 153, 0.2);
 }
 
 .skill-category-compact.mlops:hover::after {
@@ -1012,10 +1017,10 @@ section {
 }
 
 .skill-category-compact.analytics {
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.4) 0%, rgba(37, 99, 235, 0.3) 50%, rgba(255, 255, 255, 0.1) 100%);
-    border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #3b82f6, #2563eb) 1;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 2px solid rgba(59, 130, 246, 0.6);
     position: relative;
+    box-shadow: 0 8px 32px rgba(59, 130, 246, 0.3);
 }
 
 .skill-category-compact.analytics::after {
@@ -1034,8 +1039,9 @@ section {
 }
 
 .skill-category-compact.analytics:hover {
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.5) 0%, rgba(37, 99, 235, 0.4) 50%, rgba(255, 255, 255, 0.15) 100%);
-    box-shadow: 0 25px 50px rgba(59, 130, 246, 0.4), 0 0 60px rgba(37, 99, 235, 0.3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border: 2px solid rgba(59, 130, 246, 0.8);
+    box-shadow: 0 15px 40px rgba(59, 130, 246, 0.4), 0 0 0 4px rgba(59, 130, 246, 0.2);
 }
 
 .skill-category-compact.analytics:hover::after {
