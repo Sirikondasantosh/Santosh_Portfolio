@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Images Examples</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #111; color: white; }
+        .example { margin: 20px 0; padding: 20px; border: 1px solid #333; border-radius: 10px; }
+        .image-demo { width: 200px; height: 200px; object-fit: cover; border-radius: 10px; margin: 10px; }
+        code { background: #333; padding: 2px 6px; border-radius: 4px; color: #4CAF50; }
+    </style>
+</head>
+<body>
+    <h1>🖼️ GitHub Images Examples</h1>
+    
+    <div class="example">
+        <h2>1. Profile Photo from GitHub</h2>
+        <img src="https://raw.githubusercontent.com/santoshsirikonda/santosh-portfolio/main/profile-photo.jpg" alt="Profile Photo" class="image-demo">
+        <p><strong>HTML:</strong></p>
+        <code>&lt;img src="https://raw.githubusercontent.com/santoshsirikonda/santosh-portfolio/main/profile-photo.jpg" alt="Profile Photo"&gt;</code>
+    </div>
+
+    <div class="example">
+        <h2>2. Certification Images</h2>
+        <p><strong>Example URLs for certifications:</strong></p>
+        <ul>
+            <li><code>https://raw.githubusercontent.com/USERNAME/REPO/main/certifications/aws-certified.jpg</code></li>
+            <li><code>https://raw.githubusercontent.com/USERNAME/REPO/main/certifications/azure-certified.jpg</code></li>
+            <li><code>https://raw.githubusercontent.com/USERNAME/REPO/main/certifications/kubernetes-certified.jpg</code></li>
+        </ul>
+    </div>
+
+    <div class="example">
+        <h2>3. Project Screenshots</h2>
+        <p><strong>Example URLs for project images:</strong></p>
+        <ul>
+            <li><code>https://raw.githubusercontent.com/USERNAME/REPO/main/projects/ai-dashboard.jpg</code></li>
+            <li><code>https://raw.githubusercontent.com/USERNAME/REPO/main/projects/web-app.jpg</code></li>
+            <li><code>https://raw.githubusercontent.com/USERNAME/REPO/main/projects/data-pipeline.jpg</code></li>
+        </ul>
+    </div>
+
+    <div class="example">
+        <h2>4. How to Get GitHub Image URLs</h2>
+        <ol>
+            <li>Upload image to your GitHub repository</li>
+            <li>Click on the uploaded image</li>
+            <li>Right-click → "Copy image address"</li>
+            <li>Use the URL in your HTML</li>
+        </ol>
+    </div>
+
+    <div class="example">
+        <h2>5. CSS for Responsive Images</h2>
+        <pre><code>
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.cert-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+        </code></pre>
+    </div>
+</body>
+</html>
