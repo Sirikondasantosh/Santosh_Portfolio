@@ -7268,44 +7268,6 @@ section {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-.footer-contact {
-    margin-bottom: 2rem;
-}
-
-.contact-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-bottom: 0.8rem;
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.9);
-}
-
-.contact-info i {
-    color: #00D4FF;
-    font-size: 1.1rem;
-    text-shadow: 0 0 8px rgba(0, 212, 255, 0.5);
-}
-
-.contact-info span {
-    font-weight: 600;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.contact-info a {
-    color: #00D4FF;
-    text-decoration: none;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    text-shadow: 0 0 8px rgba(0, 212, 255, 0.5);
-}
-
-.contact-info a:hover {
-    color: #00FF88;
-    text-shadow: 0 0 12px rgba(0, 255, 136, 0.7);
-    transform: translateY(-1px);
-}
 
 .footer-social {
     display: flex;
@@ -7381,11 +7343,6 @@ section {
         font-size: 1rem;
     }
     
-    .contact-info {
-        font-size: 0.9rem;
-        flex-direction: column;
-        gap: 0.3rem;
-    }
     
     .footer-social {
         gap: 1rem;
@@ -7411,9 +7368,6 @@ section {
         font-size: 0.95rem;
     }
     
-    .contact-info {
-        font-size: 0.85rem;
-    }
     
     .footer-social .social-link {
         width: 40px;
