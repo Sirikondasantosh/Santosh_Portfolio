@@ -1044,6 +1044,45 @@ section {
     box-shadow: 0 15px 40px rgba(59, 130, 246, 0.4), 0 0 0 4px rgba(59, 130, 246, 0.2);
 }
 
+.skill-category-compact.databases {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 2px solid rgba(34, 197, 94, 0.6);
+    position: relative;
+    box-shadow: 0 8px 32px rgba(34, 197, 94, 0.3);
+}
+
+.skill-category-compact.databases:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border: 2px solid rgba(34, 197, 94, 0.8);
+    box-shadow: 0 15px 40px rgba(34, 197, 94, 0.4), 0 0 0 4px rgba(34, 197, 94, 0.2);
+}
+
+.skill-category-compact.languages {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 2px solid rgba(168, 85, 247, 0.6);
+    position: relative;
+    box-shadow: 0 8px 32px rgba(168, 85, 247, 0.3);
+}
+
+.skill-category-compact.languages:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border: 2px solid rgba(168, 85, 247, 0.8);
+    box-shadow: 0 15px 40px rgba(168, 85, 247, 0.4), 0 0 0 4px rgba(168, 85, 247, 0.2);
+}
+
+.skill-category-compact.tools {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 2px solid rgba(251, 146, 60, 0.6);
+    position: relative;
+    box-shadow: 0 8px 32px rgba(251, 146, 60, 0.3);
+}
+
+.skill-category-compact.tools:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border: 2px solid rgba(251, 146, 60, 0.8);
+    box-shadow: 0 15px 40px rgba(251, 146, 60, 0.4), 0 0 0 4px rgba(251, 146, 60, 0.2);
+}
+
 .skill-category-compact.analytics:hover::after {
     opacity: 1;
 }
