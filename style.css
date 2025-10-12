@@ -1053,9 +1053,63 @@ section {
     margin-bottom: 1rem;
     filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4));
     animation: iconFloat 3s ease-in-out infinite, iconGlow 2s ease-in-out infinite alternate;
-    position: relative;
-    z-index: 1;
-    transform-style: preserve-3d;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.category-icon i {
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Project Icons */
+.project-icon {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.project-icon i {
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Metric Icons */
+.metric-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.metric-icon i {
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Position Icons */
+.position-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.position-icon i {
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Brand and Badge Icons */
+.brand-icon, .badge-icon {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-right: 0.5rem;
+}
+
+.brand-icon i, .badge-icon i {
+    font-size: inherit;
+    color: inherit;
 }
 
 @keyframes iconFloat {
