@@ -2764,12 +2764,12 @@ section {
 
 /* Position Cards */
 .position-card {
-    background: rgba(17, 17, 17, 0.95);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.1) 100%);
     backdrop-filter: blur(20px);
     border-radius: 20px;
     padding: 2rem;
-    border: 1px solid var(--gray-200);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -2797,8 +2797,8 @@ section {
 }
 
 .position-card.current-position {
-    border-color: var(--success);
-    box-shadow: 0 15px 35px rgba(16, 185, 129, 0.2);
+    border-color: rgba(16, 185, 129, 0.6);
+    box-shadow: 0 15px 35px rgba(16, 185, 129, 0.3);
 }
 
 .position-card.current-position::before {
@@ -2813,7 +2813,7 @@ section {
     gap: 1.5rem;
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid var(--gray-200);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .position-icon {
