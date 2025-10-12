@@ -349,6 +349,8 @@ body::after {
 .profile-photo-section {
     position: relative;
     flex-shrink: 0;
+    padding: 15px;
+    margin-right: 20px;
 }
 
 .profile-photo {
@@ -393,21 +395,37 @@ body::after {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* Responsive adjustments for profile photo spacing */
+@media (max-width: 768px) {
+    .profile-photo-section {
+        padding: 10px;
+        margin-right: 15px;
+    }
+    
+    .status-indicator {
+        bottom: -12px;
+        right: -12px;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.7rem;
+    }
+}
+
 .status-indicator {
     position: absolute;
-    bottom: -8px;
-    right: -8px;
+    bottom: -15px;
+    right: -15px;
     display: flex;
     align-items: center;
     gap: 0.4rem;
     background: linear-gradient(135deg, #00FF88, #00CC6A);
     color: white;
-    padding: 0.4rem 0.8rem;
-    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
     font-size: 0.75rem;
     font-weight: 600;
     box-shadow: 0 4px 12px rgba(0, 255, 136, 0.4);
     z-index: 10;
+    border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .status-dot {
