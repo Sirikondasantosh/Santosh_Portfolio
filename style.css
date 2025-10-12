@@ -2750,21 +2750,19 @@ section {
     color: white;
     text-align: center;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, var(--primary), var(--accent));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .hierarchy-subtitle {
     font-size: 1rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
     text-align: center;
     margin-bottom: 3rem;
     line-height: 1.6;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 }
 
 .career-timeline {
@@ -2857,15 +2855,16 @@ section {
 
 .company-name {
     font-size: 1rem;
-    color: var(--primary);
+    color: white;
     font-weight: 600;
     margin-bottom: 0.25rem;
 }
 
 .duration {
     font-size: 0.85rem;
-    color: var(--gray-400);
+    color: white;
     font-weight: 500;
+    opacity: 0.9;
 }
 
 .current-badge {
@@ -2915,7 +2914,7 @@ section {
 .detail-section li {
     font-size: 0.9rem;
     line-height: 1.6;
-    color: var(--gray-300);
+    color: white;
     margin-bottom: 0.6rem;
     padding-left: 1.2rem;
     position: relative;
@@ -2955,7 +2954,7 @@ section {
     display: block;
     font-size: 0.8rem;
     font-weight: 600;
-    color: var(--primary);
+    color: white;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -2969,7 +2968,7 @@ section {
 
 .tech-tags span {
     background: rgba(59, 130, 246, 0.15);
-    color: rgba(255, 255, 255, 0.9);
+    color: white;
     padding: 0.3rem 0.7rem;
     border-radius: 8px;
     font-size: 0.75rem;
@@ -2985,52 +2984,52 @@ section {
 }
 
 /* Category-specific colors */
-.tech-category.ai-ml .category-label { color: #ec4899; }
+.tech-category.ai-ml .category-label { color: white; }
 .tech-category.ai-ml .tech-tags span { 
     background: rgba(236, 72, 153, 0.15); 
-    color: #ec4899; 
+    color: white; 
     border-color: rgba(236, 72, 153, 0.3); 
 }
 
-.tech-category.cloud .category-label { color: #3b82f6; }
+.tech-category.cloud .category-label { color: white; }
 .tech-category.cloud .tech-tags span { 
     background: rgba(59, 130, 246, 0.15); 
-    color: #3b82f6; 
+    color: white; 
     border-color: rgba(59, 130, 246, 0.3); 
 }
 
-.tech-category.data .category-label { color: #f59e0b; }
+.tech-category.data .category-label { color: white; }
 .tech-category.data .tech-tags span { 
     background: rgba(245, 158, 11, 0.15); 
-    color: #f59e0b; 
+    color: white; 
     border-color: rgba(245, 158, 11, 0.3); 
 }
 
-.tech-category.devops .category-label { color: #10b981; }
+.tech-category.devops .category-label { color: white; }
 .tech-category.devops .tech-tags span { 
     background: rgba(16, 185, 129, 0.15); 
-    color: #10b981; 
+    color: white; 
     border-color: rgba(16, 185, 129, 0.3); 
 }
 
-.tech-category.web .category-label { color: #8b5cf6; }
+.tech-category.web .category-label { color: white; }
 .tech-category.web .tech-tags span { 
     background: rgba(139, 92, 246, 0.15); 
-    color: #8b5cf6; 
+    color: white; 
     border-color: rgba(139, 92, 246, 0.3); 
 }
 
-.tech-category.backend .category-label { color: #ef4444; }
+.tech-category.backend .category-label { color: white; }
 .tech-category.backend .tech-tags span { 
     background: rgba(239, 68, 68, 0.15); 
-    color: #ef4444; 
+    color: white; 
     border-color: rgba(239, 68, 68, 0.3); 
 }
 
-.tech-category.tools .category-label { color: #f59e0b; }
+.tech-category.tools .category-label { color: white; }
 .tech-category.tools .tech-tags span { 
     background: rgba(245, 158, 11, 0.15); 
-    color: #f59e0b; 
+    color: white; 
     border-color: rgba(245, 158, 11, 0.3); 
 }
 
