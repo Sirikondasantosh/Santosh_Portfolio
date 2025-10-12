@@ -4,32 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Santosh Sirikonda - AI/ML Engineer & Full Stack Developer">
-    <title>Santosh Sirikonda | AI/ML Engineer & Full Stack Developer</title>
+    <title>Santosh Sirikonda | AI/ML Engineer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-brand">
-                <div class="brand-logo">
-                    <div class="logo-icon">🧠</div>
-                </div>
-                <span class="brand-text">Santosh Sirikonda</span>
+                <span class="brand-icon"><i class="fas fa-rocket"></i></span>
+                <span class="brand-text">Santosh</span>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <div class="nav-actions">
-                <a href="#contact" class="btn btn-primary">Get In Touch</a>
-            </div>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -40,91 +36,241 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="hero-particles"></div>
-            <div class="hero-gradient"></div>
-        </div>
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <div class="hero-badge">
-                        <span class="badge-dot"></span>
-                        <span>Available for opportunities</span>
-                    </div>
-                    <h1 class="hero-title">
-                        Hi, I'm <span class="highlight">Santosh</span><br>
-                        <span class="gradient-text">AI/ML Engineer & Full Stack Developer</span>
-                    </h1>
-                    <p class="hero-description">
-                        I transform data into intelligent solutions with 7+ years of experience in machine learning, 
-                        cloud technologies, and full-stack development. Passionate about building scalable AI systems 
-                        that drive real-world impact.
-                    </p>
-                    <div class="hero-actions">
-                        <a href="#projects" class="btn btn-primary">
-                            <span>View My Work</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                        <a href="#contact" class="btn btn-outline">
-                            <span>Get In Touch</span>
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
-                </div>
-                
+            <div class="hero-container">
                 <div class="hero-visual">
-                    <div class="profile-card">
-                        <div class="profile-image-container">
-                            <div class="profile-image">
-                                <img src="https://raw.githubusercontent.com/santoshsirikonda/santosh-portfolio/main/profile-photo.jpg" alt="Santosh Sirikonda" id="profileImg">
-                                <div class="image-placeholder">
-                                    <i class="fas fa-user"></i>
+                        <!-- Professional Hero Dashboard -->
+                        <div class="hero-dashboard">
+                            <!-- Clean Profile Section -->
+                            <div class="clean-profile">
+                                <!-- Profile Photo and Basic Info -->
+                                <div class="profile-header">
+                                    <div class="profile-photo-section">
+                                        <img src="https://raw.githubusercontent.com/santoshsirikonda/santosh-portfolio/main/profile-photo.jpg" alt="Santosh Sirikonda" class="profile-photo" id="profileImg">
+                                        <div class="status-indicator">
+                                            <div class="status-dot"></div>
+                                            <span>Available</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="profile-info">
+                                        <h1 class="name">Santosh Sirikonda</h1>
+                                        <p class="title">AI/ML Engineer & Full Stack Developer</p>
+                                        <p class="location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            San Francisco, CA
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="avatar-ring"></div>
-                                <div class="avatar-glow"></div>
+                                
+                                <!-- Statistics -->
+                                <div class="stats-section">
+                                    <div class="stat">
+                                        <span class="number">7+</span>
+                                        <span class="label">Years Experience</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="number">15+</span>
+                                        <span class="label">Projects Delivered</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="number">95%</span>
+                                        <span class="label">Model Accuracy</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- Action Buttons -->
+                                <div class="action-buttons">
+                                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                                    <a href="#about" class="btn btn-secondary">View Work</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="profile-info">
-                            <h3 class="profile-name">Santosh Sirikonda</h3>
-                            <p class="profile-role">AI/ML Engineer & Full Stack Developer</p>
-                            <div class="profile-status">
-                                <div class="status-dot"></div>
-                                <span>Available for Projects</span>
+                            
+                            <!-- Technical Excellence Grid -->
+                            <div class="tech-excellence-grid">
+                                <h3 class="section-title">
+                                    <i class="fas fa-cogs"></i>
+                                    Technical Excellence
+                                </h3>
+                                <div class="excellence-cards">
+                                    <div class="excellence-card ai-ml">
+                                        <div class="card-header">
+                                            <div class="card-icon">
+                                                <i class="fas fa-brain"></i>
+                                            </div>
+                                            <h4>AI/ML Engineering</h4>
+                                        </div>
+                                        <div class="tech-tags">
+                                            <span>Python</span>
+                                            <span>TensorFlow</span>
+                                            <span>PyTorch</span>
+                                            <span>LangChain</span>
+                                            <span>BERT</span>
+                                            <span>OpenCV</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="excellence-card fullstack">
+                                        <div class="card-header">
+                                            <div class="card-icon">
+                                                <i class="fas fa-laptop-code"></i>
+                                            </div>
+                                            <h4>Full Stack Development</h4>
+                                        </div>
+                                        <div class="tech-tags">
+                                            <span>React</span>
+                                            <span>Node.js</span>
+                                            <span>TypeScript</span>
+                                            <span>GraphQL</span>
+                                            <span>Next.js</span>
+                                            <span>Express</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="excellence-card cloud">
+                                        <div class="card-header">
+                                            <div class="card-icon">
+                                                <i class="fas fa-cloud"></i>
+                                            </div>
+                                            <h4>Cloud & Infrastructure</h4>
+                                        </div>
+                                        <div class="tech-tags">
+                                            <span>AWS</span>
+                                            <span>GCP</span>
+                                            <span>Azure</span>
+                                            <span>Kubernetes</span>
+                                            <span>Docker</span>
+                                            <span>Terraform</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="excellence-card data">
+                                        <div class="card-header">
+                                            <div class="card-icon">
+                                                <i class="fas fa-database"></i>
+                                            </div>
+                                            <h4>Data Engineering</h4>
+                                        </div>
+                                        <div class="tech-tags">
+                                            <span>Spark</span>
+                                            <span>Kafka</span>
+                                            <span>PostgreSQL</span>
+                                            <span>MongoDB</span>
+                                            <span>Airflow</span>
+                                            <span>Snowflake</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        
-                        <div class="quick-stats">
-                            <div class="stat-item">
-                                <div class="stat-number">7+</div>
-                                <div class="stat-label">Years</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">50+</div>
-                                <div class="stat-label">Projects</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">15+</div>
-                                <div class="stat-label">ML Models</div>
+                            
+                            <!-- MLOps Pipeline Visualization -->
+                            <div class="mlops-pipeline">
+                                <h3 class="section-title">
+                                    <i class="fas fa-sitemap"></i>
+                                    MLOps Automation Pipeline
+                                </h3>
+                                <div class="pipeline-flow">
+                                    <div class="pipeline-step">
+                                        <div class="step-icon">
+                                            <i class="fas fa-download"></i>
+                                        </div>
+                                        <h4>Data Ingestion</h4>
+                                        <p>Real-time data collection from multiple sources</p>
+                                    </div>
+                                    
+                                    <div class="pipeline-connector">
+                                        <div class="connector-line"></div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                    
+                                    <div class="pipeline-step">
+                                        <div class="step-icon">
+                                            <i class="fas fa-cogs"></i>
+                                        </div>
+                                        <h4>Processing</h4>
+                                        <p>ETL pipelines with data validation & cleansing</p>
+                                    </div>
+                                    
+                                    <div class="pipeline-connector">
+                                        <div class="connector-line"></div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                    
+                                    <div class="pipeline-step">
+                                        <div class="step-icon">
+                                            <i class="fas fa-robot"></i>
+                                        </div>
+                                        <h4>Training</h4>
+                                        <p>Automated model training & hyperparameter tuning</p>
+                                    </div>
+                                    
+                                    <div class="pipeline-connector">
+                                        <div class="connector-line"></div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                    
+                                    <div class="pipeline-step">
+                                        <div class="step-icon">
+                                            <i class="fas fa-rocket"></i>
+                                        </div>
+                                        <h4>Deployment</h4>
+                                        <p>CI/CD with monitoring & automated rollback</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- AI Specializations -->
+                                <div class="ai-specializations">
+                                    <div class="specialization-card gen-ai">
+                                        <div class="spec-icon">
+                                            <i class="fas fa-magic"></i>
+                                        </div>
+                                        <div class="spec-content">
+                                            <h4>Generative AI</h4>
+                                            <p>LLMs, GANs, Transformers, Text-to-Image, Code Generation</p>
+                                            <div class="spec-techs">
+                                                <span>GPT-4</span>
+                                                <span>DALL-E</span>
+                                                <span>Stable Diffusion</span>
+                                                <span>LangChain</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="specialization-card agentic-ai">
+                                        <div class="spec-icon">
+                                            <i class="fas fa-brain"></i>
+                                        </div>
+                                        <div class="spec-content">
+                                            <h4>Agentic AI</h4>
+                                            <p>Autonomous agents, Multi-agent systems, Task automation</p>
+                                            <div class="spec-techs">
+                                                <span>CrewAI</span>
+                                                <span>AutoGPT</span>
+                                                <span>LangGraph</span>
+                                                <span>AgentGPT</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="specialization-card pipelines">
+                                        <div class="spec-icon">
+                                            <i class="fas fa-project-diagram"></i>
+                                        </div>
+                                        <div class="spec-content">
+                                            <h4>AI Pipelines</h4>
+                                            <p>End-to-end ML workflows, Model orchestration, Data pipelines</p>
+                                            <div class="spec-techs">
+                                                <span>Kubeflow</span>
+                                                <span>MLflow</span>
+                                                <span>Airflow</span>
+                                                <span>TFX</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <!-- Floating Tech Icons -->
-            <div class="floating-tech">
-                <div class="tech-icon" style="--delay: 0s">🐍</div>
-                <div class="tech-icon" style="--delay: 1s">⚛️</div>
-                <div class="tech-icon" style="--delay: 2s">☁️</div>
-                <div class="tech-icon" style="--delay: 3s">🚀</div>
-                <div class="tech-icon" style="--delay: 4s">🧠</div>
-            </div>
-        </div>
-        
-        <!-- Scroll Indicator -->
-        <div class="scroll-indicator">
-            <div class="scroll-arrow">
-                <i class="fas fa-chevron-down"></i>
             </div>
         </div>
     </section>
@@ -132,121 +278,662 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Passionate about AI, Data, and Innovation</p>
-            </div>
-            
-            <!-- Professional Summary & Metrics -->
-            <div class="about-summary-section">
-                <div class="summary-content">
-                    <p class="main-description">
+            <div class="about-content">
+                <!-- About Header -->
+                <div class="about-header">
+                    <h2 class="about-title">About Me</h2>
+                    <p class="about-subtitle">Passionate about AI, Data, and Innovation</p>
+                </div>
+                
+                <!-- About Description -->
+                <div class="about-description">
+                    <p>
                         Experienced <strong>AI/ML Engineer</strong> specializing in building scalable machine learning solutions. 
                         Expert in Python, TensorFlow, PyTorch, and cloud technologies. Passionate about turning data into 
                         actionable insights and deploying ML models at scale.
                     </p>
                 </div>
-                <div class="summary-metrics">
-                    <div class="metric-card">
-                        <div class="metric-icon">📈</div>
-                        <div class="metric-value">7+</div>
-                        <div class="metric-label">Years Experience</div>
-                    </div>
-                    <div class="metric-card">
-                        <div class="metric-icon">🚀</div>
-                        <div class="metric-value">50+</div>
-                        <div class="metric-label">Projects Delivered</div>
-                    </div>
-                    <div class="metric-card">
-                        <div class="metric-icon">🧠</div>
-                        <div class="metric-value">15+</div>
-                        <div class="metric-label">ML Models Deployed</div>
-                    </div>
-                    <div class="metric-card">
-                        <div class="metric-icon">⚡</div>
-                        <div class="metric-value">5+</div>
-                        <div class="metric-label">Tech Domains</div>
+
+                <!-- Featured Projects -->
+                <div class="featured-projects">
+                    <h3 class="projects-title">Featured Project Links</h3>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="project-info">
+                                <h4>AI Recommendation Engine</h4>
+                                <p>Production ML system with 95% accuracy</p>
+                            </div>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="project-info">
+                                <h4>Real-time Object Detection</h4>
+                                <p>YOLOv8 system achieving 97% accuracy at 60 FPS</p>
+                            </div>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="project-info">
+                                <h4>Scalable Data Pipeline</h4>
+                                <p>Kafka & Spark ETL processing 10TB+ daily</p>
+                            </div>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="project-info">
+                                <h4>Sentiment Analysis API</h4>
+                                <p>BERT-based API analyzing 1M+ reviews daily</p>
+                            </div>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+                
+                <!-- Professional Experience & Career Progression -->
+                <div class="career-hierarchy">
+                    <h3 class="hierarchy-title">Professional Experience & Career Progression</h3>
+                    <p class="hierarchy-subtitle">Comprehensive journey through AI/ML engineering roles with key achievements and technology evolution</p>
+                    
+                    <!-- Career Timeline -->
+                    <div class="career-timeline">
+                        <!-- Current Position -->
+                        <div class="position-card current-position">
+                            <div class="position-header">
+                                <div class="position-icon"><i class="fas fa-briefcase"></i></div>
+                                <div class="position-info">
+                                    <h4 class="position-title">AI/ML Engineer</h4>
+                                    <p class="company-name">Mercedes-Benz Financial Services</p>
+                                    <span class="duration">Jan 2023 - Present</span>
+                                </div>
+                                <div class="current-badge">Current</div>
+                            </div>
+                            <div class="role-details">
+                                <div class="detail-section">
+                                    <h5>Key Achievements:</h5>
+                                    <ul>
+                                        <li><i class="fas fa-robot achievement-icon"></i><strong>Autonomous AI Agents:</strong> Designed and deployed LangChain-based autonomous agents achieving 95% accuracy in decision-making tasks, reducing manual intervention by 90% and processing 50,000+ financial transactions daily</li>
+                                        <li><i class="fas fa-chart-line achievement-icon"></i><strong>ML Pipeline Optimization:</strong> Built scalable Airflow and dbt pipelines in Snowflake reducing model retraining time by 60%, improving deployment frequency from weekly to daily, and enhancing model performance by 25%</li>
+                                        <li><i class="fas fa-cloud achievement-icon"></i><strong>Production-Grade Infrastructure:</strong> Implemented AWS infrastructure (EC2, S3, Lambda, SageMaker) supporting 10TB+ daily data processing, achieving 99.9% uptime and reducing infrastructure costs by 35% through optimization</li>
+                                        <li><i class="fas fa-database achievement-icon"></i><strong>Vector Database Integration:</strong> Integrated Pinecone and Chroma vector databases improving similarity search accuracy by 80%, enabling real-time semantic search across 10M+ documents with <100ms latency</li>
+                                        <li><i class="fas fa-brain achievement-icon"></i><strong>LLM Performance Optimization:</strong> Applied advanced prompt engineering techniques optimizing LLM performance by 90%, reducing token usage by 40%, and achieving 95% accuracy in complex financial query responses</li>
+                                        <li><i class="fas fa-shield-alt achievement-icon"></i><strong>Data Quality & Governance:</strong> Established dbt-based data quality framework ensuring 99.5% data accuracy, implementing automated testing and monitoring for 200+ data models across production systems</li>
+                                        <li><i class="fas fa-users achievement-icon"></i><strong>Cross-Functional Leadership:</strong> Led collaboration between product managers, data scientists, and engineers to deliver 5 major AI features, resulting in 40% improvement in customer satisfaction and $2M annual revenue impact</li>
+                                    </ul>
+                                </div>
+                                <div class="tech-stack-section">
+                                    <h5>Technologies:</h5>
+                                    <div class="tech-categories">
+                                        <div class="tech-category ai-ml">
+                                            <span class="category-label">AI/ML</span>
+                                            <div class="tech-tags">
+                                                <span>Python</span>
+                                                <span>LangChain</span>
+                                                <span>TensorFlow</span>
+                                                <span>PyTorch</span>
+                                                <span>scikit-learn</span>
+                                                <span>OpenCV</span>
+                                                <span>BERT</span>
+                                                <span>CrewAI</span>
+                                            </div>
+                                        </div>
+                                        <div class="tech-category cloud">
+                                            <span class="category-label">Cloud</span>
+                                            <div class="tech-tags">
+                                                <span>AWS</span>
+                                                <span>SageMaker</span>
+                                                <span>Lambda</span>
+                                                <span>EC2</span>
+                                                <span>S3</span>
+                                                <span>CloudFormation</span>
+                                                <span>IAM</span>
+                                                <span>VPC</span>
+                                            </div>
+                                        </div>
+                                        <div class="tech-category data">
+                                            <span class="category-label">Data</span>
+                                            <div class="tech-tags">
+                                                <span>Snowflake</span>
+                                                <span>dbt</span>
+                                                <span>Airflow</span>
+                                                <span>Pinecone</span>
+                                                <span>Chroma</span>
+                                                <span>Vector DBs</span>
+                                                <span>ETL Pipelines</span>
+                                                <span>Data Warehousing</span>
+                                            </div>
+                                        </div>
+                                        <div class="tech-category devops">
+                                            <span class="category-label">DevOps</span>
+                                            <div class="tech-tags">
+                                                <span>Docker</span>
+                                                <span>Kubernetes</span>
+                                                <span>CI/CD</span>
+                                                <span>Monitoring</span>
+                                                <span>GitHub Actions</span>
+                                                <span>Jenkins</span>
+                                                <span>MLflow</span>
+                                                <span>Prometheus</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
+                        <!-- Previous Positions -->
+                        <div class="position-card">
+                            <div class="position-header">
+                                <div class="position-icon"><i class="fas fa-briefcase"></i></div>
+                                <div class="position-info">
+                                    <h4 class="position-title">AI/ML Engineer (Researcher)</h4>
+                                    <p class="company-name">State of New York</p>
+                                    <span class="duration">Sep 2021 - Dec 2022</span>
+                                </div>
+                            </div>
+                            <div class="role-details">
+                                <div class="detail-section">
+                                    <h5>Key Achievements:</h5>
+                                    <ul>
+                                        <li><i class="fas fa-hospital achievement-icon"></i><strong>Healthcare Resource Optimization:</strong> Developed predictive models using TensorFlow and AutoML on GCP achieving 85% forecasting accuracy, enabling proactive staffing decisions across 50+ facilities and reducing emergency response times by 35%</li>
+                                        <li><i class="fas fa-file-alt achievement-icon"></i><strong>Legal Document Intelligence:</strong> Built NLP classifiers using BERT embeddings and scikit-learn reducing legal document retrieval time by 60%, processing 100,000+ documents monthly and improving attorney productivity by 45%</li>
+                                        <li><i class="fas fa-lightbulb achievement-icon"></i><strong>Explainable AI Framework:</strong> Implemented SHAP and LIME for transparent model validation in social programs, ensuring ethical AI deployment and achieving 100% compliance with state regulations for AI-driven decisions</li>
+                                        <li><i class="fas fa-map-marked-alt achievement-icon"></i><strong>Crime Pattern Analytics:</strong> Applied K-Means and DBSCAN clustering algorithms for crime pattern analysis, identifying 20+ hotspots and enabling 90% more efficient resource deployment for law enforcement agencies</li>
+                                        <li><i class="fas fa-lock achievement-icon"></i><strong>Privacy-Preserving ML:</strong> Generated synthetic datasets using GANs and Python Faker for privacy-compliant ML training, processing sensitive citizen data while maintaining 100% GDPR compliance and enabling safe model development</li>
+                                        <li><i class="fas fa-chart-bar achievement-icon"></i><strong>Self-Service Analytics Platform:</strong> Deployed BigQuery ML models enabling non-technical analysts to generate forecasts through SQL interfaces, democratizing ML access across 15 departments and reducing analyst workload by 50%</li>
+                                        <li><i class="fas fa-cogs achievement-icon"></i><strong>Automated Data Pipelines:</strong> Engineered Apache Airflow pipelines automating data extraction and preprocessing from GCP sources, reducing data preparation time by 70% and ensuring daily model updates for critical public services</li>
+                                    </ul>
+                                </div>
+                                <div class="tech-stack-section">
+                                    <h5>Technologies:</h5>
+                                    <div class="tech-categories">
+                                        <div class="tech-category ai-ml">
+                                            <span class="category-label">AI/ML</span>
+                                            <div class="tech-tags">
+                                                <span>TensorFlow</span>
+                                                <span>BERT</span>
+                                                <span>scikit-learn</span>
+                                                <span>SHAP</span>
+                                                <span>LIME</span>
+                                                <span>GANs</span>
+                                                <span>K-Means</span>
+                                                <span>DBSCAN</span>
+                                            </div>
+                                        </div>
+                                        <div class="tech-category cloud">
+                                            <span class="category-label">Cloud</span>
+                                            <div class="tech-tags">
+                                                <span>GCP</span>
+                                                <span>BigQuery ML</span>
+                                                <span>AutoML</span>
+                                                <span>Cloud Functions</span>
+                                                <span>Vertex AI</span>
+                                                <span>DataProc</span>
+                                                <span>Pub/Sub</span>
+                                                <span>Cloud Storage</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="position-card">
+                            <div class="position-header">
+                                <div class="position-icon"><i class="fas fa-briefcase"></i></div>
+                                <div class="position-info">
+                                    <h4 class="position-title">Software Developer</h4>
+                                    <p class="company-name">Tech Mahindra</p>
+                                    <span class="duration">Jul 2020 - Sep 2021</span>
+                                </div>
+                            </div>
+                            <div class="role-details">
+                                <div class="detail-section">
+                                    <h5>Key Achievements:</h5>
+                                    <ul>
+                                        <li><i class="fas fa-chart-pie achievement-icon"></i><strong>Customer Churn Prevention:</strong> Built predictive models using XGBoost and LightGBM achieving 92% churn prediction accuracy, identifying at-risk customers 3 months in advance and enabling retention campaigns that saved $5M annually in customer lifetime value</li>
+                                        <li><i class="fas fa-comments achievement-icon"></i><strong>Real-Time Social Media Analytics:</strong> Designed BERT and LSTM-based sentiment analysis models deployed as Flask APIs, monitoring 500K+ social media posts daily in real-time with 88% accuracy and reducing brand crisis response time by 75%</li>
+                                        <li><i class="fas fa-shield-alt achievement-icon"></i><strong>Fraud Detection System:</strong> Integrated anomaly detection algorithms into Power BI dashboards processing 1M+ daily transactions, improving fraud detection rate by 85% and reducing false positives by 60%, saving $3M in fraud losses</li>
+                                        <li><i class="fas fa-database achievement-icon"></i><strong>Data Quality Enhancement:</strong> Processed and analyzed large datasets using Python (Pandas, NumPy) and SQL queries, improving overall data quality metrics by 30% and establishing automated data validation pipelines for 50+ data sources</li>
+                                        <li><i class="fas fa-code-branch achievement-icon"></i><strong>MLOps Infrastructure:</strong> Employed MLflow for comprehensive model tracking, versioning, and artifact management, establishing enterprise MLOps standards across 20+ ML models and reducing model deployment time from weeks to days</li>
+                                        <li><i class="fas fa-sync-alt achievement-icon"></i><strong>Automated ML Workflows:</strong> Automated ETL pipelines using Apache Airflow to manage retraining schedules and feature store refresh, reducing manual effort by 80% and ensuring model freshness across production environments</li>
+                                        <li><i class="fas fa-layer-group achievement-icon"></i><strong>Feature Engineering Excellence:</strong> Engineered robust feature sets using domain-specific transformations and synthetic augmentation methods, improving model generalization by 35% in sparse and imbalanced telecom datasets</li>
+                                    </ul>
+                                </div>
+                                <div class="tech-stack-section">
+                                    <h5>Technologies:</h5>
+                                    <div class="tech-categories">
+                                        <div class="tech-category ai-ml">
+                                            <span class="category-label">AI/ML</span>
+                                            <div class="tech-tags">
+                                                <span>XGBoost</span>
+                                                <span>LightGBM</span>
+                                                <span>BERT</span>
+                                                <span>MLflow</span>
+                                                <span>LSTM</span>
+                                                <span>Pandas</span>
+                                                <span>NumPy</span>
+                                                <span>Anomaly Detection</span>
+                                            </div>
+                                        </div>
+                                        <div class="tech-category web">
+                                            <span class="category-label">Web & Data</span>
+                                            <div class="tech-tags">
+                                                <span>Flask</span>
+                                                <span>Power BI</span>
+                                                <span>REST APIs</span>
+                                                <span>Docker</span>
+                                                <span>Python Faker</span>
+                                                <span>Feature Engineering</span>
+                                                <span>Model Governance</span>
+                                                <span>Airflow</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="position-card">
+                            <div class="position-header">
+                                <div class="position-icon"><i class="fas fa-briefcase"></i></div>
+                                <div class="position-info">
+                                    <h4 class="position-title">Software Developer</h4>
+                                    <p class="company-name">Valuelabs</p>
+                                    <span class="duration">May 2019 - Jul 2020</span>
+                                </div>
+                            </div>
+                            <div class="role-details">
+                                <div class="detail-section">
+                                    <h5>Key Achievements:</h5>
+                                    <ul>
+                                        <li><i class="fas fa-cubes achievement-icon"></i><strong>Microservices Transformation:</strong> Developed 15+ RESTful APIs using Java Spring Boot enabling robust microservices architecture, reducing system coupling by 70%, improving scalability to handle 10K+ concurrent users, and decreasing deployment time by 60%</li>
+                                        <li><i class="fas fa-bolt achievement-icon"></i><strong>High-Throughput Event Processing:</strong> Engineered asynchronous event-driven systems using Kafka and RabbitMQ processing 5M+ messages daily, improving system throughput by 300%, reducing latency to <50ms, and ensuring 99.95% message delivery reliability</li>
+                                        <li><i class="fas fa-cloud-upload-alt achievement-icon"></i><strong>Cloud-Native Migration:</strong> Led migration of 8 monolithic applications to containerized deployments on AWS ECS and Kubernetes, reducing infrastructure costs by 45%, improving fault tolerance by 80%, and enabling auto-scaling for peak loads</li>
+                                        <li><i class="fas fa-lock achievement-icon"></i><strong>Enterprise Security Framework:</strong> Implemented OAuth2 and SAML authentication with Spring Security for federated identity management across 20+ microservices, achieving SOC 2 compliance and reducing security incidents by 90%</li>
+                                        <li><i class="fas fa-rocket achievement-icon"></i><strong>CI/CD Automation Pipeline:</strong> Built comprehensive Jenkins CI/CD pipelines with Docker containerization and AWS blue/green deployment strategies, reducing deployment time from 4 hours to 15 minutes and achieving zero-downtime deployments for 50+ production releases</li>
+                                        <li><i class="fas fa-database achievement-icon"></i><strong>Database Performance Optimization:</strong> Designed normalized schemas and optimized stored procedures on PostgreSQL and MySQL, improving query performance by 85%, reducing database load by 60%, and ensuring sub-second response times for critical transactions</li>
+                                        <li><i class="fas fa-chart-line achievement-icon"></i><strong>System Monitoring & Observability:</strong> Implemented ELK stack (Elasticsearch, Logstash, Kibana) for comprehensive system monitoring, reducing MTTR by 70%, proactively identifying 95% of issues before customer impact, and improving system reliability to 99.9% uptime</li>
+                                    </ul>
+                                </div>
+                                <div class="tech-stack-section">
+                                    <h5>Technologies:</h5>
+                                    <div class="tech-categories">
+                                        <div class="tech-category backend">
+                                            <span class="category-label">Backend</span>
+                                            <div class="tech-tags">
+                                                <span>Java</span>
+                                                <span>Spring Boot</span>
+                                                <span>PostgreSQL</span>
+                                                <span>Kafka</span>
+                                                <span>RabbitMQ</span>
+                                                <span>Spring Security</span>
+                                                <span>OAuth2</span>
+                                                <span>SAML</span>
+                                            </div>
+                                        </div>
+                                        <div class="tech-category cloud">
+                                            <span class="category-label">Cloud & DevOps</span>
+                                            <div class="tech-tags">
+                                                <span>AWS</span>
+                                                <span>Kubernetes</span>
+                                                <span>ECS</span>
+                                                <span>Jenkins</span>
+                                                <span>Docker Compose</span>
+                                                <span>Blue/Green Deployment</span>
+                                                <span>ELK Stack</span>
+                                                <span>JUnit & Mockito</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="position-card">
+                            <div class="position-header">
+                                <div class="position-icon"><i class="fas fa-briefcase"></i></div>
+                                <div class="position-info">
+                                    <h4 class="position-title">Software Developer</h4>
+                                    <p class="company-name">Talent Sprint Pvt Ltd</p>
+                                    <span class="duration">May 2018 - May 2019</span>
+                                </div>
+                            </div>
+                            <div class="role-details">
+                                <div class="detail-section">
+                                    <h5>Key Achievements:</h5>
+                                    <ul>
+                                        <li><i class="fas fa-graduation-cap achievement-icon"></i><strong>EdTech Platform Development:</strong> Developed comprehensive web-based learning management system using JSP, Servlets, and Spring MVC supporting 10,000+ students across 50+ courses, implementing features for course management, assessments, and student progress tracking in Agile Scrum environment</li>
+                                        <li><i class="fas fa-mobile-alt achievement-icon"></i><strong>Responsive UI/UX Implementation:</strong> Designed and implemented responsive interfaces using AngularJS, HTML5, CSS3, and Bootstrap ensuring seamless experience across desktop, tablet, and mobile devices, achieving 95% user satisfaction score and 40% increase in mobile engagement</li>
+                                        <li><i class="fas fa-credit-card achievement-icon"></i><strong>Payment & Reporting Systems:</strong> Integrated RESTful APIs for multiple payment gateways (PayPal, Stripe) processing $500K+ in transactions, and built automated PDF/Excel report generators for attendance tracking, grade management, and financial audits serving 200+ faculty members</li>
+                                        <li><i class="fas fa-server achievement-icon"></i><strong>Database Architecture & Optimization:</strong> Designed and optimized PostgreSQL database schemas supporting 50+ tables and complex relationships, improved query performance by 75% through index optimization and stored procedures, and ensured data integrity across 100K+ student records</li>
+                                        <li><i class="fas fa-cog achievement-icon"></i><strong>Production Deployment & Reliability:</strong> Successfully deployed applications on Apache Tomcat with optimized connection pooling (Apache DBCP), achieving 99.5% uptime, reducing server response times by 60%, and supporting 5000+ concurrent users during peak enrollment periods</li>
+                                        <li><i class="fas fa-bug achievement-icon"></i><strong>Quality Assurance & Testing:</strong> Implemented comprehensive unit testing with JUnit covering 80% code coverage, designed test cases for critical business workflows, and established automated testing procedures reducing production defects by 65% and ensuring stable releases</li>
+                                        <li><i class="fas fa-users-cog achievement-icon"></i><strong>Role-Based Access Control:</strong> Created reusable JavaBeans service components and configured servlet filters implementing role-based access for students, faculty, and administrators, ensuring secure data access and maintaining FERPA compliance for educational records</li>
+                                    </ul>
+                                </div>
+                                <div class="tech-stack-section">
+                                    <h5>Technologies:</h5>
+                                    <div class="tech-categories">
+                                        <div class="tech-category web">
+                                            <span class="category-label">Web Development</span>
+                                            <div class="tech-tags">
+                                                <span>Java</span>
+                                                <span>Spring MVC</span>
+                                                <span>AngularJS</span>
+                                                <span>PostgreSQL</span>
+                                                <span>JSP</span>
+                                                <span>Servlets</span>
+                                                <span>JDBC</span>
+                                                <span>Bootstrap</span>
+                                            </div>
+                                        </div>
+                                        <div class="tech-category tools">
+                                            <span class="category-label">Tools & Testing</span>
+                                            <div class="tech-tags">
+                                                <span>JUnit</span>
+                                                <span>Apache Tomcat</span>
+                                                <span>Apache DBCP</span>
+                                                <span>HTML5</span>
+                                                <span>CSS3</span>
+                                                <span>JavaScript</span>
+                                                <span>Agile Scrum</span>
+                                                <span>Git</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Skills Map</h2>
+                    <p class="section-subtitle">Clear classification of expertise domains and technologies</p>
+                </div>
+
+                <!-- Compact Skills Grid -->
+                <div class="compact-skills-grid">
+                    <!-- Skill Categories Grid -->
+                    <div class="skills-categories-compact">
+                        <div class="skill-category-compact ai-ml" data-category="ai-ml">
+                            <div class="category-icon"><i class="fas fa-brain"></i></div>
+                            <div class="category-name">AI/ML</div>
+                            <div class="category-techs">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>PyTorch</span>
+                                <span>LangChain</span>
+                                <span>scikit-learn</span>
+                                <span>Keras</span>
+                                <span>OpenCV</span>
+                                <span>BERT</span>
+                                <span>Transformers</span>
+                                <span>CrewAI</span>
+                                <span>Vertex AI</span>
+                                <span>AutoML</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category-compact fullstack" data-category="fullstack">
+                            <div class="category-icon"><i class="fas fa-laptop-code"></i></div>
+                            <div class="category-name">Full Stack</div>
+                            <div class="category-techs">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>TypeScript</span>
+                                <span>GraphQL</span>
+                                <span>Next.js</span>
+                                <span>Vue.js</span>
+                                <span>Express</span>
+                                <span>Django</span>
+                                <span>FastAPI</span>
+                                <span>Flask</span>
+                                <span>Spring Boot</span>
+                                <span>AngularJS</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category-compact data" data-category="data">
+                            <div class="category-icon"><i class="fas fa-chart-bar"></i></div>
+                            <div class="category-name">Data Engineering</div>
+                            <div class="category-techs">
+                                <span>Apache Spark</span>
+                                <span>Apache Kafka</span>
+                                <span>PostgreSQL</span>
+                                <span>MongoDB</span>
+                                <span>Apache Airflow</span>
+                                <span>ETL Pipelines</span>
+                                <span>Data Warehousing</span>
+                                <span>Hadoop</span>
+                                <span>Databricks</span>
+                                <span>dbt</span>
+                                <span>Apache Beam</span>
+                                <span>BigQuery</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category-compact cloud" data-category="cloud">
+                            <div class="category-icon"><i class="fas fa-cloud"></i></div>
+                            <div class="category-name">Cloud & Infrastructure</div>
+                            <div class="category-techs">
+                                <span>AWS</span>
+                                <span>GCP</span>
+                                <span>Azure</span>
+                                <span>Kubernetes</span>
+                                <span>SageMaker</span>
+                                <span>Lambda</span>
+                                <span>EC2</span>
+                                <span>S3</span>
+                                <span>Terraform</span>
+                                <span>CloudFormation</span>
+                                <span>DataProc</span>
+                                <span>Pub/Sub</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category-compact mlops" data-category="mlops">
+                            <div class="category-icon"><i class="fas fa-cogs"></i></div>
+                            <div class="category-name">MLOps & CI/CD</div>
+                            <div class="category-techs">
+                                <span>Docker</span>
+                                <span>Jenkins</span>
+                                <span>MLflow</span>
+                                <span>Apache Airflow</span>
+                                <span>Kubeflow</span>
+                                <span>GitHub Actions</span>
+                                <span>GitLab CI</span>
+                                <span>Azure DevOps</span>
+                                <span>Cloud Build</span>
+                                <span>TFX</span>
+                                <span>Model Registry</span>
+                                <span>Feature Store</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category-compact analytics" data-category="analytics">
+                            <div class="category-icon"><i class="fas fa-chart-line"></i></div>
+                            <div class="category-name">Analytics & Visualization</div>
+                            <div class="category-techs">
+                                <span>Power BI</span>
+                                <span>Tableau</span>
+                                <span>Looker</span>
+                                <span>dbt</span>
+                                <span>Google Data Studio</span>
+                                <span>Streamlit</span>
+                                <span>Dash</span>
+                                <span>Plotly</span>
+                                <span>Matplotlib</span>
+                                <span>Seaborn</span>
+                                <span>Elasticsearch</span>
+                                <span>Kibana</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category-compact databases" data-category="databases">
+                            <div class="category-icon"><i class="fas fa-database"></i></div>
+                            <div class="category-name">Databases & Storage</div>
+                            <div class="category-techs">
+                                <span>PostgreSQL</span>
+                                <span>MongoDB</span>
+                                <span>Redis</span>
+                                <span>MySQL</span>
+                                <span>Elasticsearch</span>
+                                <span>DynamoDB</span>
+                                <span>Cassandra</span>
+                                <span>Pinecone</span>
+                                <span>Chroma</span>
+                                <span>Snowflake</span>
+                                <span>Vector DBs</span>
+                                <span>Time Series DB</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category-compact languages" data-category="languages">
+                            <div class="category-icon"><i class="fas fa-code"></i></div>
+                            <div class="category-name">Programming Languages</div>
+                            <div class="category-techs">
+                                <span>Python</span>
+                                <span>Java</span>
+                                <span>JavaScript</span>
+                                <span>TypeScript</span>
+                                <span>R</span>
+                                <span>Scala</span>
+                                <span>SQL</span>
+                                <span>Go</span>
+                                <span>Shell/Bash</span>
+                                <span>C++</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category-compact tools" data-category="tools">
+                            <div class="category-icon"><i class="fas fa-tools"></i></div>
+                            <div class="category-name">Development Tools</div>
+                            <div class="category-techs">
+                                <span>Git</span>
+                                <span>GitHub</span>
+                                <span>GitLab</span>
+                                <span>Jupyter</span>
+                                <span>VS Code</span>
+                                <span>PyCharm</span>
+                                <span>IntelliJ</span>
+                                <span>Postman</span>
+                                <span>Swagger</span>
+                                <span>Docker Compose</span>
+                                <span>Kubernetes</span>
+                                <span>Helm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Professional Skills Map</h2>
-                <p class="section-subtitle">Clear classification of expertise domains and technologies</p>
+                <h2 class="section-title">Professional Certifications</h2>
+                <p class="section-subtitle">Industry-recognized credentials and expertise validation</p>
             </div>
             
-            <!-- Compact Skills Grid -->
-            <div class="compact-skills-grid">
-                <!-- Skill Categories Grid -->
-                <div class="skills-categories-compact">
-                    <div class="skill-category-compact ai-ml" data-category="ai-ml">
-                        <div class="category-icon">🧠</div>
-                        <div class="category-name">AI/ML</div>
-                        <div class="category-techs">
-                            <span>Python</span>
-                            <span>TensorFlow</span>
-                            <span>PyTorch</span>
-                            <span>LangChain</span>
-                        </div>
-                    </div>
-
-                    <div class="skill-category-compact fullstack" data-category="fullstack">
-                        <div class="category-icon">💻</div>
-                        <div class="category-name">Full Stack</div>
-                        <div class="category-techs">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>TypeScript</span>
-                            <span>GraphQL</span>
-                        </div>
-                    </div>
-
-                    <div class="skill-category-compact data" data-category="data">
-                        <div class="category-icon">📊</div>
-                        <div class="category-name">Data</div>
-                        <div class="category-techs">
-                            <span>Spark</span>
-                            <span>Kafka</span>
-                            <span>PostgreSQL</span>
-                            <span>MongoDB</span>
-                        </div>
-                    </div>
-
-                    <div class="skill-category-compact cloud" data-category="cloud">
+            <div class="certifications-grid">
+                <div class="cert-category">
+                    <div class="category-header">
                         <div class="category-icon">☁️</div>
-                        <div class="category-name">Cloud</div>
-                        <div class="category-techs">
-                            <span>AWS</span>
-                            <span>GCP</span>
-                            <span>Azure</span>
-                            <span>K8s</span>
+                        <h3>AWS Certifications</h3>
+                    </div>
+                    <div class="cert-cards">
+                        <div class="cert-card tier-3">
+                            <div class="cert-badge">🏆</div>
+                            <div class="cert-content">
+                                <h4>AWS DevOps Engineer Professional</h4>
+                                <span class="cert-date">2023</span>
+                            </div>
+                        </div>
+                        <div class="cert-card tier-2">
+                            <div class="cert-badge">🥈</div>
+                            <div class="cert-content">
+                                <h4>AWS Developer Associate</h4>
+                                <span class="cert-date">2022</span>
+                            </div>
+                        </div>
+                        <div class="cert-card tier-1">
+                            <div class="cert-badge">🥉</div>
+                            <div class="cert-content">
+                                <h4>AWS Cloud Practitioner</h4>
+                                <span class="cert-date">2021</span>
+                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="skill-category-compact mlops" data-category="mlops">
-                        <div class="category-icon">🚀</div>
-                        <div class="category-name">MLOps</div>
-                        <div class="category-techs">
-                            <span>Docker</span>
-                            <span>Jenkins</span>
-                            <span>MLflow</span>
-                            <span>Airflow</span>
-                        </div>
+                <div class="cert-category">
+                    <div class="category-header">
+                        <div class="category-icon">⚙️</div>
+                        <h3>Kubernetes & Azure</h3>
                     </div>
-
-                    <div class="skill-category-compact analytics" data-category="analytics">
-                        <div class="category-icon">📈</div>
-                        <div class="category-name">Analytics</div>
-                        <div class="category-techs">
-                            <span>Power BI</span>
-                            <span>Tableau</span>
-                            <span>Looker</span>
-                            <span>dbt</span>
+                    <div class="cert-cards">
+                        <div class="cert-card tier-advanced">
+                            <div class="cert-badge">🎯</div>
+                            <div class="cert-content">
+                                <h4>Kubernetes Administrator (CKA)</h4>
+                                <span class="cert-date">2023</span>
+                            </div>
+                        </div>
+                        <div class="cert-card tier-intermediate">
+                            <div class="cert-badge">🚀</div>
+                            <div class="cert-content">
+                                <h4>Kubernetes App Developer (CKAD)</h4>
+                                <span class="cert-date">2022</span>
+                            </div>
+                        </div>
+                        <div class="cert-card tier-intermediate">
+                            <div class="cert-badge">👨‍💼</div>
+                            <div class="cert-content">
+                                <h4>Azure Administrator (AZ-104)</h4>
+                                <span class="cert-date">2022</span>
+                            </div>
+                        </div>
+                        <div class="cert-card tier-1">
+                            <div class="cert-badge">📚</div>
+                            <div class="cert-content">
+                                <h4>Azure Fundamentals (AZ-900)</h4>
+                                <span class="cert-date">2021</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -254,190 +941,32 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
+    <!-- Education Section -->
+    <section id="education" class="education">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Recent work and achievements</p>
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Academic foundation and specialized training</p>
             </div>
             
-            <!-- Compact Projects Grid -->
-            <div class="compact-projects-grid">
-                <div class="project-card-compact ai-ml-project" data-project="ai-ml">
-                    <div class="project-header-compact">
-                        <div class="project-icon">🧠</div>
-                        <div class="project-badge">AI/ML</div>
-                    </div>
-                    <div class="project-content-compact">
-                        <h3>AI Recommendation Engine</h3>
-                        <p>Production ML system with 95% accuracy processing 10TB+ daily</p>
-                        <div class="project-stats-compact">
-                            <div class="stat">
-                                <span class="stat-number">95%</span>
-                                <span class="stat-label">Accuracy</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">10TB+</span>
-                                <span class="stat-label">Daily</span>
-                            </div>
-                        </div>
-                        <div class="project-tech-compact">
-                            <span>PyTorch</span>
-                            <span>FastAPI</span>
-                            <span>Redis</span>
-                        </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <div class="education-content">
+                        <h3>Master of Science in Computer Information Science</h3>
+                        <p class="institution">State University of New York</p>
+                        <p class="year">2020 - 2022</p>
+                        <p class="focus">AI/ML, Data Science, Cloud Computing</p>
                     </div>
                 </div>
-
-                <div class="project-card-compact cv-project" data-project="computer-vision">
-                    <div class="project-header-compact">
-                        <div class="project-icon">👁️</div>
-                        <div class="project-badge">Computer Vision</div>
-                    </div>
-                    <div class="project-content-compact">
-                        <h3>Real-time Object Detection</h3>
-                        <p>YOLOv8 system achieving 97% accuracy at 60 FPS for automation</p>
-                        <div class="project-stats-compact">
-                            <div class="stat">
-                                <span class="stat-number">97%</span>
-                                <span class="stat-label">Precision</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">60</span>
-                                <span class="stat-label">FPS</span>
-                            </div>
-                        </div>
-                        <div class="project-tech-compact">
-                            <span>OpenCV</span>
-                            <span>PyTorch</span>
-                            <span>Docker</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card-compact data-project" data-project="data-engineering">
-                    <div class="project-header-compact">
-                        <div class="project-icon">📊</div>
-                        <div class="project-badge">Data Engineering</div>
-                    </div>
-                    <div class="project-content-compact">
-                        <h3>Scalable Data Pipeline</h3>
-                        <p>Kafka & Spark ETL processing 10TB+ daily with &lt;1s latency</p>
-                        <div class="project-stats-compact">
-                            <div class="stat">
-                                <span class="stat-number">10TB</span>
-                                <span class="stat-label">Throughput</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">&lt;1s</span>
-                                <span class="stat-label">Latency</span>
-                            </div>
-                        </div>
-                        <div class="project-tech-compact">
-                            <span>Kafka</span>
-                            <span>Spark</span>
-                            <span>Airflow</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card-compact nlp-project" data-project="nlp">
-                    <div class="project-header-compact">
-                        <div class="project-icon">💬</div>
-                        <div class="project-badge">NLP</div>
-                    </div>
-                    <div class="project-content-compact">
-                        <h3>Sentiment Analysis API</h3>
-                        <p>BERT-based API analyzing 1M+ reviews daily with 94% accuracy</p>
-                        <div class="project-stats-compact">
-                            <div class="stat">
-                                <span class="stat-number">94%</span>
-                                <span class="stat-label">Accuracy</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">1M+</span>
-                                <span class="stat-label">Daily</span>
-                            </div>
-                        </div>
-                        <div class="project-tech-compact">
-                            <span>BERT</span>
-                            <span>Transformers</span>
-                            <span>FastAPI</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Professional Experience</h2>
-                <p class="section-subtitle">Career progression and key achievements</p>
-            </div>
-            
-            <!-- Experience Dashboard -->
-            <div class="experience-dashboard">
-                <div class="experience-card current">
-                    <div class="experience-header">
-                        <div class="company-logo">🚗</div>
-                        <div class="experience-info">
-                            <h3>AI/ML Engineer</h3>
-                            <p class="company">Mercedes-Benz Financial Services</p>
-                            <p class="duration">Jan 2023 - Present</p>
-                        </div>
-                        <div class="experience-badge">Current</div>
-                    </div>
-                    <div class="experience-content">
-                        <ul class="experience-details">
-                            <li>Designed autonomous agents with <strong>LangChain</strong> for enhanced automation and AI integration</li>
-                            <li>Built scalable ML pipelines with <strong>Airflow</strong> and <strong>dbt</strong> in Snowflake for model retraining</li>
-                            <li>Implemented <strong>AWS infrastructure</strong> (EC2, S3, Lambda, SageMaker) for production AI systems</li>
-                            <li>Integrated <strong>vector databases</strong> (Pinecone, Chroma) for similarity search and knowledge management</li>
-                            <li>Applied <strong>prompt engineering</strong> for LLMs, optimizing performance in agentic AI systems</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">LangChain</span>
-                            <span class="tech-tag">AWS</span>
-                            <span class="tech-tag">Snowflake</span>
-                            <span class="tech-tag">Docker</span>
-                            <span class="tech-tag">Kubernetes</span>
-                            <span class="tech-tag">Airflow</span>
-                            <span class="tech-tag">dbt</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <div class="company-logo">🏛️</div>
-                        <div class="experience-info">
-                            <h3>AI/ML Engineer (Researcher Followership)</h3>
-                            <p class="company">State of New York</p>
-                            <p class="duration">Sep 2021 - Dec 2022</p>
-                        </div>
-                    </div>
-                    <div class="experience-content">
-                        <ul class="experience-details">
-                            <li>Developed predictive models for healthcare forecasting with <strong>TensorFlow</strong> and <strong>AutoML on GCP</strong></li>
-                            <li>Built <strong>NLP classifiers</strong> with BERT embeddings, reducing retrieval time by <strong>60%</strong> for legal documents</li>
-                            <li>Implemented <strong>Explainable AI</strong> (SHAP, LIME) for transparent model validation in social programs</li>
-                            <li>Applied <strong>clustering algorithms</strong> (K-Means, DBSCAN) for crime pattern analysis</li>
-                            <li>Enabled self-service analytics with <strong>BigQuery ML</strong> for non-technical analysts</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span class="tech-tag">TensorFlow</span>
-                            <span class="tech-tag">GCP</span>
-                            <span class="tech-tag">BERT</span>
-                            <span class="tech-tag">BigQuery ML</span>
-                            <span class="tech-tag">Airflow</span>
-                            <span class="tech-tag">SHAP</span>
-                            <span class="tech-tag">LIME</span>
-                        </div>
+                
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <div class="education-content">
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <p class="institution">Jawaharlal Nehru Technological University</p>
+                        <p class="year">2014 - 2018</p>
+                        <p class="focus">Software Engineering, Algorithms, Data Structures</p>
                     </div>
                 </div>
             </div>
@@ -449,10 +978,9 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Let's discuss how we can work together</p>
+                <p class="section-subtitle">Let's discuss opportunities and collaboration</p>
             </div>
-            
-            <div class="contact-content">
+            <div class="contact-grid">
                 <div class="contact-info">
                     <div class="contact-item">
                         <div class="contact-icon">
@@ -460,7 +988,7 @@
                         </div>
                         <div class="contact-details">
                             <h4>Email</h4>
-                            <p>santosh.sirikonda@example.com</p>
+                            <a href="mailto:santosh.sirikonda@example.com">santosh.sirikonda@example.com</a>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -469,7 +997,7 @@
                         </div>
                         <div class="contact-details">
                             <h4>LinkedIn</h4>
-                            <p>linkedin.com/in/santosh-sirikonda</p>
+                            <a href="https://www.linkedin.com/in/santosh-sirikonda-1ab988246/" target="_blank">Connect with me</a>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -478,27 +1006,14 @@
                         </div>
                         <div class="contact-details">
                             <h4>GitHub</h4>
-                            <p>github.com/santoshsirikonda</p>
+                            <a href="https://github.com/Sirikondasantosh" target="_blank">View my code</a>
                         </div>
                     </div>
                 </div>
-                
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
+                <div class="contact-cta">
+                    <h3>Ready to collaborate?</h3>
+                    <p>Let's build something amazing together!</p>
+                    <a href="mailto:santosh.sirikonda@example.com" class="btn btn-primary">Send Message</a>
                 </div>
             </div>
         </div>
@@ -508,14 +1023,25 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-text">
-                    <p>&copy; 2024 Santosh Sirikonda. All rights reserved.</p>
+                <div class="footer-brand">
+                    <span class="brand-icon">🚀</span>
+                    <span>Santosh Sirikonda</span>
                 </div>
+                <p class="footer-text">Building the future with AI and innovation.</p>
                 <div class="footer-social">
-                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/Sirikondasantosh" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/santosh-sirikonda-1ab988246/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:santosh.sirikonda@example.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
                 </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Santosh Sirikonda. All rights reserved.</p>
             </div>
         </div>
     </footer>
