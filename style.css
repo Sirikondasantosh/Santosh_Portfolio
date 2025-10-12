@@ -1112,6 +1112,122 @@ section {
     color: inherit;
 }
 
+/* Project Links Section */
+.project-links-section {
+    margin: 3rem 0;
+}
+
+.project-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.project-link-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 2rem;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.project-link-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.project-link-card.ai-project {
+    border-color: rgba(249, 115, 22, 0.4);
+}
+
+.project-link-card.ai-project:hover {
+    border-color: rgba(249, 115, 22, 0.8);
+    box-shadow: 0 20px 40px rgba(249, 115, 22, 0.3);
+}
+
+.project-link-card.cv-project {
+    border-color: rgba(16, 185, 129, 0.4);
+}
+
+.project-link-card.cv-project:hover {
+    border-color: rgba(16, 185, 129, 0.8);
+    box-shadow: 0 20px 40px rgba(16, 185, 129, 0.3);
+}
+
+.project-link-card.data-project {
+    border-color: rgba(168, 85, 247, 0.4);
+}
+
+.project-link-card.data-project:hover {
+    border-color: rgba(168, 85, 247, 0.8);
+    box-shadow: 0 20px 40px rgba(168, 85, 247, 0.3);
+}
+
+.project-link-card.nlp-project {
+    border-color: rgba(236, 72, 153, 0.4);
+}
+
+.project-link-card.nlp-project:hover {
+    border-color: rgba(236, 72, 153, 0.8);
+    box-shadow: 0 20px 40px rgba(236, 72, 153, 0.3);
+}
+
+.project-link-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.project-link-icon i {
+    font-size: inherit;
+    color: inherit;
+}
+
+.project-link-content h4 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.project-link-content p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.project-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    color: #FFFFFF;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project-link-btn:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.project-link-btn i {
+    font-size: 0.9rem;
+}
+
 @keyframes iconFloat {
     0%, 100% { 
         transform: translateY(0px) scale(1); 

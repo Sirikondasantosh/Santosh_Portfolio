@@ -24,7 +24,6 @@
                 <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#certifications" class="nav-link">Certifications</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -71,7 +70,7 @@
                     
                     <div class="hero-actions">
                         <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                        <a href="#projects" class="btn btn-secondary">View Work</a>
+                        <a href="#about" class="btn btn-secondary">View Work</a>
                     </div>
                     <div class="social-links">
                         <a href="https://github.com/Sirikondasantosh" target="_blank" class="social-link">
@@ -201,7 +200,7 @@
                     <p class="section-subtitle">Passionate about AI, Data, and Innovation</p>
                 </div>
                 
-                <!-- Professional Summary & Metrics -->
+                <!-- Professional Summary -->
                 <div class="about-summary-section">
                     <div class="summary-content">
                         <p class="main-description">
@@ -210,26 +209,66 @@
                             actionable insights and deploying ML models at scale.
                         </p>
                     </div>
-                    <div class="summary-metrics">
-                        <div class="metric-card">
-                            <div class="metric-icon"><i class="fas fa-calendar-alt"></i></div>
-                            <div class="metric-value">7+</div>
-                            <div class="metric-label">Years Experience</div>
+                </div>
+
+                <!-- Project Links Section -->
+                <div class="project-links-section">
+                    <h3 class="section-subtitle">Featured Project Links</h3>
+                    <div class="project-links-grid">
+                        <div class="project-link-card ai-project">
+                            <div class="project-link-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="project-link-content">
+                                <h4>AI Recommendation Engine</h4>
+                                <p>Production ML system with 95% accuracy</p>
+                                <a href="#" class="project-link-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Project
+                                </a>
+                            </div>
                         </div>
-                        <div class="metric-card">
-                            <div class="metric-icon"><i class="fas fa-building"></i></div>
-                            <div class="metric-value">3</div>
-                            <div class="metric-label">Companies</div>
+                        
+                        <div class="project-link-card cv-project">
+                            <div class="project-link-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="project-link-content">
+                                <h4>Real-time Object Detection</h4>
+                                <p>YOLOv8 system achieving 97% accuracy at 60 FPS</p>
+                                <a href="#" class="project-link-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Project
+                                </a>
+                            </div>
                         </div>
-                        <div class="metric-card">
-                            <div class="metric-icon"><i class="fas fa-rocket"></i></div>
-                            <div class="metric-value">15+</div>
-                            <div class="metric-label">Projects Delivered</div>
+                        
+                        <div class="project-link-card data-project">
+                            <div class="project-link-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="project-link-content">
+                                <h4>Scalable Data Pipeline</h4>
+                                <p>Kafka & Spark ETL processing 10TB+ daily</p>
+                                <a href="#" class="project-link-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Project
+                                </a>
+                            </div>
                         </div>
-                        <div class="metric-card">
-                            <div class="metric-icon"><i class="fas fa-chart-line"></i></div>
-                            <div class="metric-value">60%</div>
-                            <div class="metric-label">Avg. Performance Improvement</div>
+                        
+                        <div class="project-link-card nlp-project">
+                            <div class="project-link-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="project-link-content">
+                                <h4>Sentiment Analysis API</h4>
+                                <p>BERT-based API analyzing 1M+ reviews daily</p>
+                                <a href="#" class="project-link-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Project
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -527,122 +566,6 @@
             </div>
         </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Recent work and achievements</p>
-            </div>
-            
-            <!-- Compact Projects Grid -->
-            <div class="compact-projects-grid">
-                <div class="project-card-compact ai-ml-project" data-project="ai-ml">
-                    <div class="project-header-compact">
-                        <div class="project-icon"><i class="fas fa-brain"></i></div>
-                        <div class="project-badge">AI/ML</div>
-                    </div>
-                    <div class="project-content-compact">
-                        <h3>AI Recommendation Engine</h3>
-                        <p>Production ML system with 95% accuracy processing 10TB+ daily</p>
-                        <div class="project-stats-compact">
-                            <div class="stat">
-                                <span class="stat-number">95%</span>
-                                <span class="stat-label">Accuracy</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">10TB+</span>
-                                <span class="stat-label">Daily</span>
-                            </div>
-                        </div>
-                        <div class="project-tech-compact">
-                            <span>PyTorch</span>
-                            <span>FastAPI</span>
-                            <span>Redis</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card-compact cv-project" data-project="computer-vision">
-                    <div class="project-header-compact">
-                        <div class="project-icon"><i class="fas fa-eye"></i></div>
-                        <div class="project-badge">Computer Vision</div>
-                    </div>
-                    <div class="project-content-compact">
-                        <h3>Real-time Object Detection</h3>
-                        <p>YOLOv8 system achieving 97% accuracy at 60 FPS for automation</p>
-                        <div class="project-stats-compact">
-                            <div class="stat">
-                                <span class="stat-number">97%</span>
-                                <span class="stat-label">Precision</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">60</span>
-                                <span class="stat-label">FPS</span>
-                            </div>
-                        </div>
-                        <div class="project-tech-compact">
-                            <span>OpenCV</span>
-                            <span>PyTorch</span>
-                            <span>Docker</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card-compact data-project" data-project="data-engineering">
-                    <div class="project-header-compact">
-                        <div class="project-icon"><i class="fas fa-database"></i></div>
-                        <div class="project-badge">Data Engineering</div>
-                    </div>
-                    <div class="project-content-compact">
-                        <h3>Scalable Data Pipeline</h3>
-                        <p>Kafka & Spark ETL processing 10TB+ daily with &lt;1s latency</p>
-                        <div class="project-stats-compact">
-                            <div class="stat">
-                                <span class="stat-number">10TB</span>
-                                <span class="stat-label">Throughput</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">&lt;1s</span>
-                                <span class="stat-label">Latency</span>
-                            </div>
-                        </div>
-                        <div class="project-tech-compact">
-                            <span>Kafka</span>
-                            <span>Spark</span>
-                            <span>Airflow</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card-compact nlp-project" data-project="nlp">
-                    <div class="project-header-compact">
-                        <div class="project-icon"><i class="fas fa-comments"></i></div>
-                        <div class="project-badge">NLP</div>
-                    </div>
-                    <div class="project-content-compact">
-                        <h3>Sentiment Analysis API</h3>
-                        <p>BERT-based API analyzing 1M+ reviews daily with 94% accuracy</p>
-                        <div class="project-stats-compact">
-                            <div class="stat">
-                                <span class="stat-number">94%</span>
-                                <span class="stat-label">Accuracy</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">1M+</span>
-                                <span class="stat-label">Daily</span>
-                            </div>
-                        </div>
-                        <div class="project-tech-compact">
-                            <span>BERT</span>
-                            <span>Transformers</span>
-                            <span>FastAPI</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Experience Section -->
     <section id="experience" class="experience">
