@@ -2913,20 +2913,29 @@ section {
 
 .detail-section li {
     font-size: 0.9rem;
-    line-height: 1.6;
+    line-height: 1.7;
     color: white;
-    margin-bottom: 0.6rem;
-    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
     position: relative;
 }
 
 .detail-section li::before {
-    content: '▸';
-    position: absolute;
-    left: 0;
+    content: '';
+}
+
+.achievement-icon {
     color: var(--primary);
-    font-weight: bold;
-    font-size: 1rem;
+    margin-right: 0.75rem;
+    font-size: 1.1rem;
+    vertical-align: middle;
+    filter: drop-shadow(0 2px 4px rgba(59, 130, 246, 0.4));
+    transition: all 0.3s ease;
+}
+
+.detail-section li:hover .achievement-icon {
+    transform: scale(1.2) rotate(5deg);
+    filter: drop-shadow(0 4px 8px rgba(59, 130, 246, 0.6));
 }
 
 /* Tech Categories */
