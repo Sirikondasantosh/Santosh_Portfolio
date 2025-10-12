@@ -46,7 +46,10 @@
                                 <!-- Profile Photo and Basic Info -->
                                 <div class="profile-header">
                                     <div class="profile-photo-section">
-                                        <img src="https://raw.githubusercontent.com/santoshsirikonda/santosh-portfolio/main/profile-photo.jpg" alt="Santosh Sirikonda" class="profile-photo" id="profileImg">
+                                        <img src="profile-photo.jpg" alt="Santosh Sirikonda" class="profile-photo" id="profileImg" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="profile-photo-placeholder" style="display: none;">
+                                            <span class="initials">SS</span>
+                                        </div>
                                         <div class="status-indicator">
                                             <div class="status-dot"></div>
                                             <span>Available</span>

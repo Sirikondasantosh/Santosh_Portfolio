@@ -2,6 +2,29 @@
 // Modern Compact Portfolio JavaScript
 // ========================================
 
+// Profile Image Loading
+document.addEventListener('DOMContentLoaded', function() {
+    const profileImg = document.getElementById('profileImg');
+    const placeholder = document.querySelector('.profile-photo-placeholder');
+    
+    if (profileImg) {
+        profileImg.onload = function() {
+            this.style.display = 'block';
+            if (placeholder) placeholder.style.display = 'none';
+        };
+        
+        profileImg.onerror = function() {
+            this.style.display = 'none';
+            if (placeholder) placeholder.style.display = 'flex';
+        };
+        
+        // Force reload if image is cached incorrectly
+        if (profileImg.complete && profileImg.naturalHeight === 0) {
+            profileImg.src = profileImg.src + '?t=' + Date.now();
+        }
+    }
+});
+
 // Mobile Navigation Toggle
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
