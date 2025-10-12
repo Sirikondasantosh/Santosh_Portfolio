@@ -482,6 +482,82 @@ body::after {
     font-weight: 500;
 }
 
+/* Profile Actions */
+.profile-actions {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 1.5rem 0;
+}
+
+.profile-actions .btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-actions .btn-primary {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: white;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+}
+
+.profile-actions .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.6);
+}
+
+.profile-actions .btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.profile-actions .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+/* Profile Social Links */
+.profile-social {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.profile-social .social-link {
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.profile-social .social-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: var(--primary);
+    color: var(--primary);
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
 /* Technical Excellence Grid */
 .tech-excellence-grid {
     background: rgba(255, 255, 255, 0.08);
@@ -712,9 +788,15 @@ body::after {
     .profile-card {
         flex-direction: column;
         text-align: center;
+        padding: 2rem;
     }
     
     .profile-stats {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .profile-actions {
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -729,22 +811,99 @@ body::after {
         font-size: 1.2rem;
     }
     
+    .profile-location {
+        font-size: 1rem;
+    }
+    
     .profile-stats {
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
     }
     
     .stat-item {
         width: 100%;
-        max-width: 300px;
+        max-width: 280px;
+    }
+    
+    .profile-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .profile-actions .btn {
+        width: 100%;
+        max-width: 250px;
+        justify-content: center;
+    }
+    
+    .profile-social {
+        gap: 0.8rem;
+    }
+    
+    .profile-social .social-link {
+        width: 40px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+    
+    .section-title {
+        font-size: 1.4rem;
+    }
+    
+    .excellence-card {
+        padding: 1.2rem;
+    }
+    
+    .pipeline-step {
+        padding: 1.2rem 0.8rem;
     }
 }
 
-.hero-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
+@media (max-width: 480px) {
+    .profile-card {
+        padding: 1.5rem;
+    }
+    
+    .profile-name {
+        font-size: 1.8rem;
+    }
+    
+    .profile-title {
+        font-size: 1.1rem;
+    }
+    
+    .profile-stats {
+        gap: 0.8rem;
+    }
+    
+    .stat-item {
+        padding: 0.8rem 1rem;
+        max-width: 240px;
+    }
+    
+    .stat-number {
+        font-size: 1.5rem;
+    }
+    
+    .stat-label {
+        font-size: 0.8rem;
+    }
+    
+    .tech-excellence-grid,
+    .mlops-pipeline {
+        padding: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.2rem;
+    }
+}
+
+.hero-container {
+    width: 100%;
+    position: relative;
+    z-index: 2;
 }
 
 .hero-content {
