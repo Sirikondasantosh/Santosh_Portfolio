@@ -402,6 +402,26 @@ body::after {
         padding: 10px;
         margin-right: 15px;
     }
+    
+    .profile-photo, .profile-photo-placeholder {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .profile-photo-placeholder .initials {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-photo, .profile-photo-placeholder {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .profile-photo-placeholder .initials {
+        font-size: 1.5rem;
+    }
 }
 
 
