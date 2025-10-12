@@ -85,54 +85,69 @@
                     </div>
                 </div>
                 
-                <div class="hero-visual">
-                    <!-- Professional Dashboard -->
-                    <!-- Professional Hero Dashboard -->
-                    <div class="hero-dashboard">
-                        <!-- Professional Profile Card -->
-                        <div class="profile-card">
-                            <div class="profile-image-container">
-                                <img src="https://raw.githubusercontent.com/santoshsirikonda/santosh-portfolio/main/profile-photo.jpg" alt="Santosh Sirikonda" class="profile-photo">
-                                <div class="profile-badge">
-                                    <i class="fas fa-star"></i>
-                                    Available
-                                </div>
-                            </div>
-                            <div class="profile-details">
-                                <h1 class="profile-name">Santosh Sirikonda</h1>
-                                <p class="profile-title">AI/ML Engineer & Full Stack Developer</p>
-                                <p class="profile-location">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    San Francisco, CA
-                                </p>
-                                <div class="profile-stats">
-                                    <div class="stat">
-                                        <span class="stat-number">7+</span>
-                                        <span class="stat-label">Years Experience</span>
-                                    </div>
-                                    <div class="stat">
-                                        <span class="stat-number">15+</span>
-                                        <span class="stat-label">Projects Delivered</span>
-                                    </div>
-                                    <div class="stat">
-                                        <span class="stat-number">95%</span>
-                                        <span class="stat-label">Model Accuracy</span>
+                    <div class="hero-visual">
+                        <!-- Professional Hero Dashboard -->
+                        <div class="hero-dashboard">
+                            <!-- Professional Profile Card -->
+                            <div class="profile-card">
+                                <div class="profile-image-container">
+                                    <div class="profile-image-wrapper">
+                                        <img src="https://raw.githubusercontent.com/santoshsirikonda/santosh-portfolio/main/profile-photo.jpg" alt="Santosh Sirikonda" class="profile-photo" id="profileImg">
+                                        <div class="profile-ring"></div>
+                                        <div class="status-badge">
+                                            <i class="fas fa-circle"></i>
+                                            Available
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        
-                        <!-- Tech Stack Excellence -->
-                        <div class="tech-excellence">
-                            <h3>Technical Excellence</h3>
-                            <div class="excellence-grid">
-                                <div class="excellence-card ai-ml">
-                                    <div class="card-icon">
-                                        <i class="fas fa-brain"></i>
+                                <div class="profile-details">
+                                    <h1 class="profile-name">Santosh Sirikonda</h1>
+                                    <p class="profile-title">AI/ML Engineer & Full Stack Developer</p>
+                                    <p class="profile-location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        San Francisco, CA
+                                    </p>
+                                    <div class="profile-stats">
+                                        <div class="stat-item">
+                                            <div class="stat-icon"><i class="fas fa-briefcase"></i></div>
+                                            <div class="stat-content">
+                                                <span class="stat-number">7+</span>
+                                                <span class="stat-label">Years Experience</span>
+                                            </div>
+                                        </div>
+                                        <div class="stat-item">
+                                            <div class="stat-icon"><i class="fas fa-rocket"></i></div>
+                                            <div class="stat-content">
+                                                <span class="stat-number">15+</span>
+                                                <span class="stat-label">Projects Delivered</span>
+                                            </div>
+                                        </div>
+                                        <div class="stat-item">
+                                            <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+                                            <div class="stat-content">
+                                                <span class="stat-number">95%</span>
+                                                <span class="stat-label">Model Accuracy</span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="card-content">
-                                        <h4>AI/ML Engineering</h4>
-                                        <div class="tech-list">
+                                </div>
+                            </div>
+                            
+                            <!-- Technical Excellence Grid -->
+                            <div class="tech-excellence-grid">
+                                <h3 class="section-title">
+                                    <i class="fas fa-cogs"></i>
+                                    Technical Excellence
+                                </h3>
+                                <div class="excellence-cards">
+                                    <div class="excellence-card ai-ml">
+                                        <div class="card-header">
+                                            <div class="card-icon">
+                                                <i class="fas fa-brain"></i>
+                                            </div>
+                                            <h4>AI/ML Engineering</h4>
+                                        </div>
+                                        <div class="tech-tags">
                                             <span>Python</span>
                                             <span>TensorFlow</span>
                                             <span>PyTorch</span>
@@ -141,15 +156,15 @@
                                             <span>OpenCV</span>
                                         </div>
                                     </div>
-                                </div>
-                                
-                                <div class="excellence-card fullstack">
-                                    <div class="card-icon">
-                                        <i class="fas fa-laptop-code"></i>
-                                    </div>
-                                    <div class="card-content">
-                                        <h4>Full Stack Development</h4>
-                                        <div class="tech-list">
+                                    
+                                    <div class="excellence-card fullstack">
+                                        <div class="card-header">
+                                            <div class="card-icon">
+                                                <i class="fas fa-laptop-code"></i>
+                                            </div>
+                                            <h4>Full Stack Development</h4>
+                                        </div>
+                                        <div class="tech-tags">
                                             <span>React</span>
                                             <span>Node.js</span>
                                             <span>TypeScript</span>
@@ -158,15 +173,15 @@
                                             <span>Express</span>
                                         </div>
                                     </div>
-                                </div>
-                                
-                                <div class="excellence-card cloud">
-                                    <div class="card-icon">
-                                        <i class="fas fa-cloud"></i>
-                                    </div>
-                                    <div class="card-content">
-                                        <h4>Cloud & Infrastructure</h4>
-                                        <div class="tech-list">
+                                    
+                                    <div class="excellence-card cloud">
+                                        <div class="card-header">
+                                            <div class="card-icon">
+                                                <i class="fas fa-cloud"></i>
+                                            </div>
+                                            <h4>Cloud & Infrastructure</h4>
+                                        </div>
+                                        <div class="tech-tags">
                                             <span>AWS</span>
                                             <span>GCP</span>
                                             <span>Azure</span>
@@ -175,15 +190,15 @@
                                             <span>Terraform</span>
                                         </div>
                                     </div>
-                                </div>
-                                
-                                <div class="excellence-card data">
-                                    <div class="card-icon">
-                                        <i class="fas fa-database"></i>
-                                    </div>
-                                    <div class="card-content">
-                                        <h4>Data Engineering</h4>
-                                        <div class="tech-list">
+                                    
+                                    <div class="excellence-card data">
+                                        <div class="card-header">
+                                            <div class="card-icon">
+                                                <i class="fas fa-database"></i>
+                                            </div>
+                                            <h4>Data Engineering</h4>
+                                        </div>
+                                        <div class="tech-tags">
                                             <span>Spark</span>
                                             <span>Kafka</span>
                                             <span>PostgreSQL</span>
@@ -194,59 +209,57 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        
-                        <!-- MLOps Pipeline Visualization -->
-                        <div class="mlops-pipeline">
-                            <h3>MLOps Automation Pipeline</h3>
-                            <div class="pipeline-container">
-                                <div class="pipeline-step">
-                                    <div class="step-icon">
-                                        <i class="fas fa-download"></i>
-                                    </div>
-                                    <div class="step-content">
+                            
+                            <!-- MLOps Pipeline Visualization -->
+                            <div class="mlops-pipeline">
+                                <h3 class="section-title">
+                                    <i class="fas fa-sitemap"></i>
+                                    MLOps Automation Pipeline
+                                </h3>
+                                <div class="pipeline-flow">
+                                    <div class="pipeline-step">
+                                        <div class="step-icon">
+                                            <i class="fas fa-download"></i>
+                                        </div>
                                         <h4>Data Ingestion</h4>
                                         <p>Real-time data collection from multiple sources</p>
                                     </div>
-                                </div>
-                                
-                                <div class="pipeline-connector">
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                                
-                                <div class="pipeline-step">
-                                    <div class="step-icon">
-                                        <i class="fas fa-cogs"></i>
+                                    
+                                    <div class="pipeline-connector">
+                                        <div class="connector-line"></div>
+                                        <i class="fas fa-arrow-right"></i>
                                     </div>
-                                    <div class="step-content">
+                                    
+                                    <div class="pipeline-step">
+                                        <div class="step-icon">
+                                            <i class="fas fa-cogs"></i>
+                                        </div>
                                         <h4>Processing</h4>
                                         <p>ETL pipelines with data validation & cleansing</p>
                                     </div>
-                                </div>
-                                
-                                <div class="pipeline-connector">
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                                
-                                <div class="pipeline-step">
-                                    <div class="step-icon">
-                                        <i class="fas fa-robot"></i>
+                                    
+                                    <div class="pipeline-connector">
+                                        <div class="connector-line"></div>
+                                        <i class="fas fa-arrow-right"></i>
                                     </div>
-                                    <div class="step-content">
+                                    
+                                    <div class="pipeline-step">
+                                        <div class="step-icon">
+                                            <i class="fas fa-robot"></i>
+                                        </div>
                                         <h4>Training</h4>
                                         <p>Automated model training & hyperparameter tuning</p>
                                     </div>
-                                </div>
-                                
-                                <div class="pipeline-connector">
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                                
-                                <div class="pipeline-step">
-                                    <div class="step-icon">
-                                        <i class="fas fa-rocket"></i>
+                                    
+                                    <div class="pipeline-connector">
+                                        <div class="connector-line"></div>
+                                        <i class="fas fa-arrow-right"></i>
                                     </div>
-                                    <div class="step-content">
+                                    
+                                    <div class="pipeline-step">
+                                        <div class="step-icon">
+                                            <i class="fas fa-rocket"></i>
+                                        </div>
                                         <h4>Deployment</h4>
                                         <p>CI/CD with monitoring & automated rollback</p>
                                     </div>
@@ -254,7 +267,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
