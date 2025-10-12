@@ -205,8 +205,9 @@ body::after {
     align-items: center;
     gap: 0.5rem;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: #FFFFFF;
+    letter-spacing: 0.5px;
 }
 
 .brand-icon {
@@ -7149,6 +7150,11 @@ section {
         display: flex;
     }
     
+    .nav-brand {
+        font-size: 0.95rem;
+        letter-spacing: 0.3px;
+    }
+    
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -7284,6 +7290,11 @@ section {
 @media (max-width: 480px) {
     .container {
         padding: 0 1rem;
+    }
+    
+    .nav-brand {
+        font-size: 0.85rem;
+        letter-spacing: 0.2px;
     }
     
     .clean-profile {
