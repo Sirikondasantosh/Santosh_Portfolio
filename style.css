@@ -359,11 +359,12 @@ body::after {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center top;
+    object-position: center center;
     border: 4px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
     display: block;
+    background-color: #f0f0f0;
 }
 
 .profile-photo:hover {
